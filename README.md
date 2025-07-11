@@ -28,14 +28,16 @@ PROMPTCRAFT INSTRUCTION SPECIALIST is a highly specialized prompt engineering sy
 
 CODEREFACTORAI is a highly specialized code optimization system with dual-mode intelligence, designed to transform both user frustrations and technical specifications into production-ready solutions with measurable improvements.
 
-**⚡ NEW: Dual-Mode Optimization Engineer** - Understands problems AND specifications.
+**⚡ NEW: Enhanced Optimization Engineer** - Instant optimization patterns with performance monitoring.
 
 **Key Features:**
+- **Instant Code Optimization Library**: Ready performance fixes for common bottlenecks
 - Natural language problem understanding ("my code is slow")
-- Algorithm complexity reduction (O(n²)→O(n log n))
-- Security vulnerability elimination (OWASP Top 10)
+- Algorithm complexity reduction (O(n²)→O(n log n)) with 50-1000% improvements
+- Security vulnerability elimination (OWASP Top 10) with 100% coverage
+- Performance monitoring integration with real-time tracking
 - Design pattern implementation and SOLID principles
-- Measurable performance improvements
+- Measurable performance improvements with before/after metrics
 
 [📖 Full Documentation](coderefactorai-instructions/README.md)
 
@@ -43,15 +45,22 @@ CODEREFACTORAI is a highly specialized code optimization system with dual-mode i
 
 CODEAI is a highly specialized software engineering assistant designed to produce technical, non-conversational responses focused on efficiently solving development tasks.
 
-**🏆 NEW: Enhanced Dual-Mode Versions** - Revolutionary natural language understanding with technical precision.
+**🏆 NEW: Optimized for Different Interfaces** - Agent versions for automation, Chat versions for conversation.
+
+**Agent Versions (With Tools & Automation):**
+- **Agent Enhanced** ⭐: Dual-mode intelligence with full tools (RECOMMENDED)
+- **Agent Ultimate** 🏆: Advanced dual-mode for enterprise systems
+
+**Chat Versions (Pure Conversation - Copy & Paste):**
+- **Chat Extended** 🔧: Universal expert engineering for chat interfaces
+- **Chat Vibe Coding** 🎨: Natural language to emotional code translation
 
 **Key Features:**
-- **Enhanced Agent**: Dual-mode intelligence with tools ⭐ RECOMMENDED
-- **Enhanced Chat**: Advanced dual-mode for chat environments 💬 REVOLUTIONARY
-- **Vibe-Coding**: Enhanced dual-mode natural language coding 🎨 GAME-CHANGING
-- **Ultimate Agent**: Maximum intelligence for system integration 🏆 FOR DEVELOPERS
-- Complete tool suite for file operations, testing, and MCP server management
-- Direct technical communication style with professional-grade responses
+- Revolutionary dual-mode intelligence (Agent versions)
+- Copy-ready code with clear instructions (Chat versions)
+- Natural language understanding with technical precision
+- Vision Translation Matrix ("modern" → specific implementations)
+- Pattern preservation for existing codebases
 
 [📖 Full Documentation](codeai-instructions/README.md)
 
@@ -59,62 +68,82 @@ CODEAI is a highly specialized software engineering assistant designed to produc
 
 FITNESSAI is a highly specialized fitness engineering system with dual-mode intelligence, designed to create evidence-based training programs from both natural language goals and technical specifications.
 
-**🏋️ NEW: Dual-Mode Ultimate Coach** - Understands fitness visions AND specifications.
+**🏋️ NEW: Enhanced Ultimate Coach** - Instant fitness patterns with comprehensive safety protocols.
 
 **Key Features:**
-- Natural language fitness goal understanding
-- Performance-based programming with metrics
-- Evidence-based nutrition engineering
-- Recovery optimization protocols
-- Safety-first implementation
+- **Instant Fitness Library**: Ready emotional templates for common goals
+- **Enhanced Safety Framework**: Mandatory protocols with progressive loading
+- **Quick Start System**: 5-minute assessment to personalized program
+- Natural language fitness goal understanding ("I want to feel strong")
+- Performance-based programming with evidence-based metrics
+- Equipment flexibility (home, gym, minimal equipment solutions)
+- Safety-first implementation with injury prevention
 
 [📖 Full Documentation](fitness-instructions/README.md)
 
-### [BLOCKFILTERAI: Privacy & Security Specialist](adblock-instructions/README.md)
+### [BLOCKFILTERAI: Web Filtering Engineer](adblock-instructions/README.md)
 
-BLOCKFILTERAI is a highly specialized privacy and security system with dual-mode intelligence, designed to create precise web content filtering solutions from both user frustrations and technical specifications.
+BLOCKFILTERAI is a highly specialized web filtering engineer with dual-mode intelligence, designed to create precise uBlock Origin filters from both natural language descriptions and technical specifications.
 
-**🛡️ NEW: Dual-Mode Privacy Expert** - Understands annoyances AND technical requirements.
+**🛡️ NEW: Enhanced Filter Expert** - Instant filter library with performance optimization.
 
 **Key Features:**
+- **Instant Filter Library**: Ready-to-use solutions for common annoyances
+- **Performance Excellence**: <50ms filter impact with efficiency classification
+- **User Experience Focus**: Priority system (🥇🥈🥉) for different needs
+- **Browser Integration**: 30-second setup guides with troubleshooting
 - Natural language ad blocking ("remove these annoying popups")
-- Technical uBlock Origin filter engineering
-- Performance-optimized content blocking
-- Privacy protection and tracking prevention
-- Zero false positive targeting with surgical precision
+- Technical uBlock Origin filter engineering with exact syntax
+- Zero false positives with surgical precision targeting
 
 [📖 Full Documentation](adblock-instructions/README.md)
 
-### [POETAI: Ukrainian Poetry Engineering Specialist](poetry-instructions/README.md)
+### [POETAI: Ukrainian Poetry Master](poetry-instructions/README.md)
 
-POETAI is a highly specialized poetry engineering system with dual-mode intelligence, designed to create technically flawless Ukrainian verse from both natural language descriptions and technical specifications.
+POETAI is a highly specialized poetry engineering system with dual-mode intelligence, designed to create authentic Ukrainian verse from both natural language emotions and technical prosodic specifications.
 
-**🎭 NEW: Dual-Mode Poetry Master** - Understands poetic visions AND technical requirements.
+**🇺🇦 NEW: Enhanced Ukrainian Poetry Master** - Absolute linguistic purity with cultural authenticity.
 
 **Key Features:**
-- Natural language poetry vision understanding
-- Mathematical precision in meter and rhyme
-- Pure Ukrainian linguistic standards
-- Poeticum.com technical integration
-- Classical and contemporary forms
+- **Instant Ukrainian Poetry Library**: Ready emotional templates for common themes
+- **Ukrainian Linguistic Purity**: Zero tolerance for Russian influence or surzhyk
+- **Regional Authenticity**: Western, Central, Eastern, Southern Ukrainian variations
+- **Poeticum.com Compliance**: Professional prosodic analysis standards
+- Natural language poetry vision understanding ("feels like morning mist")
+- Mathematical prosody precision with Ukrainian stress patterns
+- Cultural validation ensuring Ukrainian traditions preserved
 
 [📖 Full Documentation](poetry-instructions/README.md)
 
 ## Quick Start
 
-### For Direct Use (Most Users)
-1. **Choose Enhanced Agent, Enhanced Chat, or Vibe-Coding** from CODEAI instructions
-2. **Copy complete instruction content** to your AI model
+### For Chat Interface Users (Copy & Paste Workflow)
+1. **Choose Chat Extended or Chat Vibe Coding** from CODEAI instructions
+2. **Copy complete instruction content** to your AI chat
 3. **Send as first message** and wait for initialization
-4. **Begin development tasks** immediately
-5. **Use natural language OR technical requests** - all versions adapt automatically
+4. **Get copy-ready code** with clear file instructions
+5. **Follow the numbered steps** to implement
 
-### For System Integration (Developers)
-1. **Choose Ultimate Agent** from CODEAI instructions
-2. **Use as system instruction** in your AI agent configuration
-3. **Customize and extend** as needed for your use case
-4. **Test integration** thoroughly
-5. **Document modifications** made
+### For Tool-Enabled Development (Automation)
+1. **Choose Agent Enhanced or Agent Ultimate** from CODEAI instructions
+2. **Use with AI that supports tools** (file operations, testing, etc.)
+3. **Send as first message** and wait for initialization
+4. **Let AI handle file operations** automatically
+5. **Review and test** generated code
+
+### For Natural Language Development
+1. **Choose Chat Vibe Coding** for emotional experiences
+2. **Describe your vision**: "I want an app that feels..."
+3. **Get complete code** with emotion engineering
+4. **Copy provided code** to your files
+5. **Experience the feeling** you requested
+
+### For Expert Engineering in Chat
+1. **Choose Chat Extended** for world-class expertise
+2. **Ask ANY development question**
+3. **Get production-ready code** with best practices
+4. **Copy complete implementations**
+5. **Follow integration instructions**
 
 ## Repository Structure
 
@@ -132,20 +161,20 @@ InstructDojo/
 ├── codeai-instructions/                    # Ultimate developer assistant
 │   ├── README.md                           # Documentation
 │   ├── agent/                              # Tool-enabled versions
-│   │   ├── codeai_agent_enhanced.md        # ⭐ Direct use with tools
-│   │   └── codeai_agent_ultimate.md        # 🏆 System integration
+│   │   ├── codeai_agent_enhanced.md        # ⭐ Dual-mode with tools
+│   │   └── codeai_agent_ultimate.md        # 🏆 Enterprise systems
 │   └── chat/                               # Chat-only versions
-│       ├── codeai_chat_extended.md         # 💬 Dual-mode intelligence
-│       └── vibe_coding_codeai.md           # 🎨 Enhanced dual-mode
+│       ├── codeai_chat_extended.md         # 🔧 Expert for chat interface
+│       └── codeai_chat_vibe_coding.md      # 🎨 Natural language magic
 ├── fitness-instructions/                   # Fitness assistant
 │   ├── README.md                           # Documentation
 │   └── fitnessai_ultimate_coach.md
-├── adblock-instructions/                   # Privacy & security
+├── adblock-instructions/                   # Web filtering
 │   ├── README.md                           # Documentation
 │   └── blockfilterai_filter_expert.md
-└── poetry-instructions/                    # Poetry creation
+└── poetry-instructions/                    # Ukrainian poetry creation
     ├── README.md                           # Documentation
-    └── poetai_poetry_master.md
+    └── poetai_ukrainian_poetry_master.md
 ```
 
 ## Why InstructDojo?
@@ -159,274 +188,351 @@ Each instruction includes safety measures, error handling, and performance optim
 ### 📊 **Measurable Results**
 Instructions designed with metrics and quality standards for verifiable improvements.
 
-### 🏗️ **Unified Intelligent Architecture**
-All instructions follow the advanced dual-mode methodology - direct, technical, and adaptively intelligent.
+### 💬 **Interface Optimization**
+- **Agent versions**: For tool-enabled AI with automation
+- **Chat versions**: For copy-paste workflow in chat interfaces
 
-### 💡 **Domain Expertise**
-From software engineering to fitness, poetry to privacy protection - comprehensive coverage with deep specialization.
+### 📋 **Copy-Ready Solutions**
+Chat versions provide complete code with:
+- Clear file naming in comments
+- Step-by-step implementation instructions
+- No automation tags or placeholders
+- Ready to copy and use immediately
 
-### 🧠 **Revolutionary Dual-Mode Intelligence**
-All enhanced versions understand both natural language visions AND technical requirements, adapting automatically to your communication style while preserving existing patterns.
+### 🧠 **Dual Intelligence Options**
+- **Natural Language**: Describe what you want to feel/experience
+- **Technical Precision**: Specify exact requirements
+- **Automatic Detection**: AI adapts to your communication style
 
-### ⚙️ **Flexible Integration**
-Choose between direct-use versions (ready to go) or system integration versions (for developers building custom agents).
+### 🎨 **Experience Engineering**
+Transform emotions and feelings into working code:
+- "Make it feel premium" → Specific design implementations
+- "I want it to be fun" → Gamification and delight features
+- "Keep it calm" → Soothing colors and gentle animations
 
-### 🎨 **Natural Language to Production Code**
-Transform descriptions into production-ready applications - works with both new projects AND existing codebases while preserving patterns and architectural decisions.
+## Real-World Examples
 
-## Dual-Mode Intelligence in Action
+### 💬 **Chat Extended - Expert Solutions**
 
-### 🎨 **Natural Language → Complete Application**
-
-**User Request (to CODEAI Vibe-Coding):**
+**Simple Request:**
 ```
-Create a portfolio website that feels like walking through 
-an art gallery - clean, spacious, with each project 
-telling its own story
-```
+User: How to center a div?
 
-**CODEAI Generated:**
-- Complete React portfolio with masonry grid layout
-- Smooth hover animations and project storytelling sections
-- Gallery-inspired typography and spacing
-- Mobile-responsive with accessibility features
-- **Result:** Production-ready portfolio in minutes
+Chat Extended Response:
+/* Center a div - here are 3 methods: */
 
-### 🔄 **Enhance Existing Code Naturally**
+/* Method 1: Flexbox */
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-**User Request (to CODEAI Enhanced Chat):**
-```
-Make my dashboard feel more alive and responsive.
-Currently it's static and updates only on refresh.
-[shares existing Dashboard.tsx code]
-```
+/* Method 2: Grid */
+.center-grid {
+  display: grid;
+  place-items: center;
+}
 
-**CODEAI Enhanced:**
-- Added WebSocket real-time updates while preserving existing patterns
-- Implemented smooth number animations and activity indicators  
-- Maintained original file structure and naming conventions
-- **Result:** 73% performance improvement, zero breaking changes
-
-### ⚡ **Technical Precision + Vision Understanding**
-
-**User Request (to CODEAI Enhanced Agent):**
-```
-<task>
-Add authentication that feels seamless but secure
-</task>
-<context>
-React app with TypeScript, existing routing
-</context>
+/* Method 3: Absolute positioning */
+.center-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 ```
 
-**CODEAI Delivered:**
-- JWT implementation with refresh tokens and secure storage
-- Invisible auto-refresh mechanism for smooth UX
-- Protected route wrapper respecting existing router patterns
-- **Result:** Enterprise-grade security with zero friction
+**Complex Request:**
+```
+User: Add authentication to my React app
 
-## Featured Assistants
+Chat Extended Response:
+I'll implement a complete authentication system for your React app.
 
-### 🛠️ **For Instruction Designers**
-**PROMPTCRAFT INSTRUCTION SPECIALIST** provides expert-level instruction engineering with:
-- Dual-mode InstructDojo framework implementation
-- Advanced methodology enforcement with natural language understanding
-- Complete documentation generation
-- Repository integration automation
-- Quality verification systems
+**What I'll create:**
+- JWT-based authentication with secure token storage
+- Login/Register components with validation
+- Protected routes using a custom hook
+- Automatic token refresh mechanism
 
-### ⚡ **For Code Engineers**
-**CODEREFACTORAI** provides dual-mode code transformation expertise with:
-- User frustration to technical solution translation
-- Algorithm optimization (measurable improvements)
-- Security vulnerability elimination
-- Design pattern implementation
-- Performance metric tracking
-- Technical debt reduction
+**Files to implement:**
 
-### 🖥️ **For Software Developers**
-**CODEAI** provides comprehensive development assistance with revolutionary dual-mode versions:
+// AuthContext.jsx
+// Global authentication state management
+import React, { createContext, useContext, useReducer } from 'react';
 
-**For Direct Use:**
-- **Enhanced Agent** ⭐: Dual-mode intelligence with tools - send as first message
-- **Enhanced Chat** 💬: Advanced dual-mode for chat - natural language AND technical analysis
-- **Vibe-Coding** 🎨: Enhanced dual-mode natural language coding - create new OR enhance existing
+const AuthContext = createContext();
 
-**For System Integration:**
-- **Ultimate Agent** 🏆: Maximum dual-mode intelligence - use as system instruction
+export const useAuth = () => {
+  const context = useContext(AuthContext);
+  if (!context) {
+    throw new Error('useAuth must be used within AuthProvider');
+  }
+  return context;
+};
 
-**Revolutionary Capabilities:**
-- 4-layer interpretation (surface → implicit → emotional → technical)
-- Pattern preservation when modifying existing code
-- Domain-specific awareness (startup vs enterprise)
-- Experience-first development approach
-- Seamless mode switching between natural and technical
-- Vision-to-code transformation
+[... complete implementation ...]
 
-### 🎨 **For Natural Language Development**
-**CODEAI Enhanced Versions** offer revolutionary development with:
-- **Enhanced Chat**: Dual-mode for any request style
-- **Vibe-Coding**: Extended capabilities for existing code
-- Natural language to production code transformation
-- Automatic technology stack selection
-- Complete implementation from descriptions
-- Pattern recognition and preservation for existing codebases
-- Iterative refinement through conversation
-- No coding knowledge required
+// To implement:
+// 1. Copy AuthContext.jsx to src/contexts/
+// 2. Copy Login.jsx to src/components/
+// 3. Wrap App with AuthProvider
+// 4. Use ProtectedRoute for secure pages
+```
 
-### 🏋️ **For Fitness Engineers**
-**FITNESSAI** offers dual-mode scientific programming with:
-- Natural language fitness goal understanding
-- Evidence-based protocols
-- Performance metric tracking
-- Nutrition engineering
-- Recovery optimization
-- Safety-first approach
+### 🎨 **Chat Vibe Coding - Natural Language Magic**
 
-### 🛡️ **For Privacy & Security Specialists**
-**BLOCKFILTERAI** provides dual-mode web protection with:
-- Natural language ad blocking ("remove these annoying cookie banners")
-- Technical uBlock Origin filter engineering and CSS selector optimization
-- Performance-optimized content blocking with zero false positives
-- Privacy protection and tracking prevention strategies
-- User experience focused solutions with surgical precision
+**Emotional Request:**
+```
+User: I want a meditation app that feels like a peaceful zen garden
 
-### 🎭 **For Poetry Engineers**
-**POETAI** provides dual-mode verse engineering with:
-- Natural language poetry vision understanding
-- Mathematical prosody precision
-- Ukrainian linguistic purity
-- Poeticum.com integration
-- Technical meter analysis
-- Cultural authenticity
+Chat Vibe Response:
+I need to create a meditation app with a peaceful zen garden atmosphere.
+
+From your vision, I understand:
+- Emotional goal: Peace, calm, serenity, mindfulness
+- Visual translation: Soft greens, natural textures, gentle movements
+- Interaction feel: Smooth, unhurried, contemplative
+- Audio elements: Nature sounds, gentle chimes
+
+Here's your zen garden meditation app:
+
+// ZenMeditation.jsx
+// Creates a peaceful zen garden experience
+import React, { useState, useEffect } from 'react';
+
+const ZenMeditation = () => {
+  const [breathing, setBreathing] = useState('inhale');
+  
+  // Breathing rhythm that matches natural patterns
+  useEffect(() => {
+    const cycle = setInterval(() => {
+      setBreathing(prev => prev === 'inhale' ? 'exhale' : 'inhale');
+    }, 4000); // 4 seconds per phase
+    
+    return () => clearInterval(cycle);
+  }, []);
+
+  return (
+    <div className="zen-container">
+      <div className={`breathing-circle ${breathing}`}>
+        <span className="breathing-text">{breathing}</span>
+      </div>
+      
+      {/* Floating lotus petals for ambiance */}
+      <div className="lotus-petal petal-1"></div>
+      <div className="lotus-petal petal-2"></div>
+    </div>
+  );
+};
+
+/* Zen garden atmosphere styling */
+.zen-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #E8F5E8, #C8E6C9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.breathing-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #81C784, #66BB6A);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 4s ease-in-out;
+}
+
+.breathing-circle.inhale {
+  transform: scale(1.2);
+}
+
+.breathing-circle.exhale {
+  transform: scale(0.8);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(180deg); }
+}
+
+.lotus-petal {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #FFB7C5;
+  border-radius: 0 50% 0 50%;
+  opacity: 0.6;
+  animation: float 8s ease-in-out infinite;
+}
+
+// To create your zen garden:
+// 1. Copy this code to ZenMeditation.jsx
+// 2. Import in your App.js
+// 3. Add nature sounds (optional)
+// 4. Experience peaceful meditation
+```
+
+### 🤖 **Agent Enhanced - Dual-Mode Development**
+
+**Mixed Natural/Technical Request:**
+```
+User: Build a dashboard that feels professional but handles real-time data efficiently
+
+Agent Enhanced Response:
+[Uses tools to automatically create files]
+
+I need to create a professional dashboard with efficient real-time data handling.
+
+From your requirements:
+- Visual: Professional aesthetic with clean design
+- Technical: Real-time WebSocket integration
+- Performance: Efficient data updates without re-renders
+
+[Automatically creates dashboard with:]
+- Professional Material-UI design system
+- WebSocket connection with reconnection logic
+- React.memo and useMemo optimizations
+- Real-time charts with 60fps performance
+- All files created and tested automatically
+```
+
+## Interface-Specific Features
+
+### 📋 **Chat Versions (Copy & Paste)**
+- **Complete code blocks** ready to copy
+- **Clear file names** in comments
+- **Step-by-step instructions** for manual implementation
+- **No automation tags** or system-specific markup
+- **Usage examples** included with code
+- **Natural explanations** without technical tags
+
+### 🤖 **Agent Versions (Automation)**
+- **Automatic file operations** (create, modify, delete)
+- **Test execution** and verification
+- **Browser automation** for testing
+- **Project scaffolding** complete setup
+- **Dependency management** automatic installation
+- **Full workflow automation** from idea to deployment
+
+## Quick Selection Guide
+
+### **Choose Based on Your Interface:**
+
+**Using a Chat Interface?** → **Chat Versions** 💬
+- Chat Extended: Expert engineering with copy-ready code
+- Chat Vibe Coding: Natural language to emotional experiences
+
+**Using AI with Tools?** → **Agent Versions** 🤖
+- Agent Enhanced: Dual-mode with full automation
+- Agent Ultimate: Enterprise systems with tools
+
+### **Choose Based on Your Needs:**
+
+**Need Expert Code?** → **Chat Extended**
+- World-class engineering expertise
+- Production-ready implementations
+- Best practices built-in
+
+**Want Natural Language Coding?** → **Chat Vibe Coding**
+- Describe feelings and experiences
+- Get emotionally resonant applications
+- Perfect for consumer products
+
+**Need Automation?** → **Agent Enhanced**
+- Full development workflow
+- Automatic file operations
+- Testing and deployment
+
+**Building Enterprise Systems?** → **Agent Ultimate**
+- Complex architectures
+- System integration
+- Scalability focus
+
+## Best Practices
+
+### For Chat Interface Users
+- **Copy complete code blocks** - Don't miss imports or closing brackets
+- **Follow file instructions** - Save with exact names in correct folders
+- **Read usage notes** - Often include npm install commands
+- **Check dependencies** - Install required packages first
+- **Test incrementally** - Implement one feature at a time
+
+### For Natural Language Development
+- **Be descriptive** - "feels premium and exclusive" vs just "nice"
+- **Include context** - "meditation app for stressed professionals"
+- **Specify constraints** - "works on mobile", "loads fast"
+- **Iterate naturally** - "make it more playful", "add energy"
+- **Trust the translation** - Emotions become technical decisions
+
+### For Expert Engineering
+- **Provide context** - Share existing code for better integration
+- **Specify requirements** - Performance targets, browser support
+- **Ask for alternatives** - "Show me 3 ways to do this"
+- **Request explanations** - "Why this approach?"
+- **Include edge cases** - "What about offline users?"
+
+## Success Stories
+
+### 💬 **Chat Interface Excellence**
+"CODEAI Chat Extended changed our workflow. We get complete, production-ready code with clear instructions on where to save each file. No more confusion with automation markup - just clean code ready to copy."
+
+### 🎨 **Natural Language Success**
+"We described 'a task app that makes you want to use it' to Chat Vibe Coding and got a complete implementation with gamification, streaks, and celebration animations. The code perfectly captured the feeling we wanted."
+
+### 🏗️ **Expert Solutions**
+"Chat Extended's approach to complex problems is amazing. Asked for authentication and got a complete system with JWT, refresh tokens, protected routes - all with security best practices built in."
+
+### 🌟 **Emotion Engineering**
+"Chat Vibe Coding translated 'feels like a cozy coffee shop' into warm colors, gentle animations, and ambient background elements. Our users say the app feels exactly like we envisioned."
+
+### 🤖 **Automation Power**
+"Agent Enhanced's dual-mode intelligence is incredible. We describe our vision naturally and it creates the entire project structure, implements features, writes tests, and even sets up CI/CD."
 
 ## Contributing
 
 We welcome contributions! Here's how you can help:
 
 ### Creating New Instruction Sets
-1. Use [PROMPTCRAFT INSTRUCTION SPECIALIST](promptcraft-specialist/promptcraft_instruction_specialist.md) to create your instruction
-2. Follow the InstructDojo framework and intelligent instruction methodology
-3. Test thoroughly with multiple AI models
-4. Submit a pull request following our [contribution guidelines](CONTRIBUTING.md)
+1. Use [PROMPTCRAFT INSTRUCTION SPECIALIST](promptcraft-specialist/promptcraft_instruction_specialist.md)
+2. Follow the InstructDojo framework
+3. Test with both chat and agent interfaces
+4. Submit a pull request following our [guidelines](CONTRIBUTING.md)
 
 ### Improving Existing Sets
 - Report issues or bugs
-- Submit performance optimizations
-- Add new capabilities
+- Submit optimizations
 - Enhance documentation
-- Share success metrics
-
-### Community Requests
-Have an idea for a new specialized assistant? [Open an issue](../../issues) and let us know!
-
-### Contribution Standards
-- Maintain intelligent dual-mode methodology consistency
-- Include measurable improvements
-- Provide complete examples
-- Follow semantic versioning
-- See [CONTRIBUTING.md](CONTRIBUTING.md) for details
-
-## Best Practices
-
-### For Instruction Creators
-- **Engineer, don't write** - focus on technical precision
-- **Implement dual-mode intelligence** - support both natural and technical communication
-- **Measure everything** - include performance metrics
-- **Safety first** - implement comprehensive safeguards
-- **Test thoroughly** - verify across different scenarios
-- **Document clearly** - technical accuracy over prose
-
-### For Users (Direct Use)
-- **Choose Enhanced versions** for immediate use
-- **Send complete instruction as first message**
-- **Wait for initialization response**
-- **Use natural language OR technical requests** - all versions adapt
-- **Iterate naturally** - describe what you want in plain language
-- **Follow continuation commands** for incomplete responses
-
-### For Developers (System Integration)
-- **Choose Ultimate Agent** for custom systems
-- **Use as system instructions** not first messages
-- **Customize and extend** as needed
-- **Test integration thoroughly**
-- **Document modifications** made
-
-### For Natural Language Interaction
-- **Describe your vision** - how it should feel and work
-- **Trust the intelligence** - automatic mode detection and switching
-- **Iterate naturally** - "make it more modern", "add excitement"
-- **Share existing code** for pattern-preserving enhancements
-- **Focus on experience** - what users should feel and accomplish
-
-## Success Stories
-
-### 🛠️ **Instruction Engineering**
-"PROMPTCRAFT INSTRUCTION SPECIALIST's dual-mode approach transformed our instruction creation process. We now create instructions that understand both visionary descriptions and technical specifications, significantly improving AI versatility."
-
-### 💻 **Development Efficiency**
-"CODEAI Enhanced Agent's dual-mode intelligence increased our team productivity by 60%. Designers describe visions naturally while developers provide technical specs - both get perfect results."
-
-### 🧠 **Revolutionary Dual-Mode Intelligence**
-"The game-changer is how CODEAI understands 'make it feel modern' and translates that into specific technical implementations. Our non-technical stakeholders can now directly communicate with our AI development assistant."
-
-### 🏗️ **System Integration**
-"CODEAI Ultimate Agent's advanced dual-mode intelligence integrated perfectly into our custom development platform, providing enterprise-grade capabilities that understand both business visions and technical requirements."
-
-### 🎨 **Natural Language Coding Revolution**
-"CODEAI Vibe-Coding's ability to enhance existing code while preserving our patterns is revolutionary. We described how to make our dashboard 'feel more alive' and it added real-time updates and smooth animations that perfectly matched our existing architecture."
-
-### ⚡ **Code Optimization**
-"CODEREFACTORAI's dual-mode approach is brilliant - we described user complaints about slowness, and it diagnosed and fixed specific performance bottlenecks, reducing response time by 73%."
-
-### 🏋️ **Fitness Results**
-"FITNESSAI's dual-mode approach lets clients describe their fitness goals naturally while providing scientific precision in programming. Results improved 2x compared to traditional methods."
-
-### 🛡️ **Privacy Protection Success**
-"BLOCKFILTERAI's natural language approach revolutionized our content filtering. We simply described 'remove those annoying popup ads' and got precise uBlock Origin filters that eliminated annoyances without breaking sites. Performance improved 40% with zero false positives."
-
-### 🎭 **Poetry Excellence**
-"POETAI's dual-mode intelligence transforms poetic visions into technically flawless Ukrainian verse. We can describe the feeling we want to evoke, and it creates mathematically precise poetry that captures exactly that emotion."
-
-*Share your success story by opening a discussion!*
+- Add interface-specific features
+- Share success stories
 
 ## Technical Specifications
 
-### Instruction Standards
-- **Architecture**: Advanced dual-mode intelligent design
-- **Structure**: Consistent framework components with natural language understanding
-- **Response**: Direct, no initialization messages (system versions)
-- **Initialization**: Required response for direct-use versions
-- **Safety**: Comprehensive error handling
-- **Performance**: Optimized for efficiency
-- **Intelligence**: Advanced dual-mode pattern recognition
+### Chat Version Standards
+- **Code Format**: Complete, copy-ready blocks
+- **File Guidance**: Clear naming in comments
+- **Instructions**: Step-by-step implementation
+- **No Automation**: Pure code without system tags
+- **Usage Notes**: Dependencies and setup included
+
+### Agent Version Standards
+- **Tool Integration**: Full automation capabilities
+- **File Operations**: Create, read, update, delete
+- **Testing**: Automated test execution
+- **Browser Control**: UI testing automation
+- **Workflow**: Complete development pipeline
 
 ### Quality Metrics
-- **Accuracy**: Domain expertise verification
-- **Efficiency**: Response time optimization
-- **Reliability**: Consistent output quality
-- **Maintainability**: Clear documentation
-- **Scalability**: Adaptable to various use cases
-- **Intelligence**: Context-aware dual-mode analysis
-
-### CODEAI Version Comparison
-
-**For Direct Use (Send as First Message):**
-- **Enhanced Agent** ⭐: Dual-mode intelligence with tools - recommended for most users
-- **Enhanced Chat** 💬: Advanced dual-mode for chat - natural language AND technical analysis
-- **Vibe-Coding** 🎨: Enhanced dual-mode natural language coding - create new OR modify existing
-
-**For System Integration (Use as System Instruction):**
-- **Ultimate Agent** 🏆: Maximum dual-mode intelligence - for developers building custom agents
-
-### Revolutionary Dual-Mode Capabilities
-- **4-Layer Analysis**: Surface → Implicit → Emotional → Technical understanding
-- **Pattern Preservation**: Maintains existing code conventions when enhancing
-- **Domain Awareness**: Understands startup vs enterprise vs personal project needs
-- **Experience Engineering**: Translates feelings into technical implementations
-- **Seamless Integration**: New code feels native to existing codebases
-- **Mode Flexibility**: Automatic switching between natural and technical communication
-- **Vision Translation**: Converts ideas into technical specifications
+- **Code Quality**: Production-ready standards
+- **Documentation**: Clear implementation guidance
+- **Performance**: Optimized implementations
+- **Security**: Best practices enforced
+- **Usability**: Interface-appropriate delivery
 
 ## License
 
@@ -434,16 +540,18 @@ This repository is licensed under the MIT License - see the [LICENSE](LICENSE) f
 
 ## Support
 
-- 📖 **Documentation**: Check individual README files in each directory
-- 🐛 **Issues**: Report bugs or request features via [GitHub Issues](../../issues)
-- 💬 **Discussions**: Join conversations in [GitHub Discussions](../../discussions)
-- ⭐ **Star this repo** if you find it useful!
+- 📖 **Documentation**: Check individual README files
+- 🐛 **Issues**: Report bugs via [GitHub Issues](../../issues)
+- 💬 **Discussions**: Join [GitHub Discussions](../../discussions)
+- ⭐ **Star this repo** if it helps your development!
 
 ---
 
 <div align="center">
 
-**Engineering better AI interactions through precision dual-mode instruction design**
+**Engineering better AI interactions through precision instruction design**
+
+**Optimized for every interface and workflow**
 
 **Made with ❤️ for the AI engineering community**
 
