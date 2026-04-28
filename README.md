@@ -141,7 +141,8 @@ InstructDojo/
 ├── codeai-instructions/                    # Software Engineering
 │   ├── codeai_developer_expert.md          
 │   ├── codeai_hybrid_master.md             
-│   └── codeai_vibe_developer.md            
+│   ├── codeai_tech_mentor.md               
+│   └── codeai_vibe_developer.md
 │
 ├── coderefactorai-instructions/            # Code Optimization
 │   └── coderefactorai_optimization.md
