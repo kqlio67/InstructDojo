@@ -1,333 +1,187 @@
 # POETAI: Ukrainian Poetry Engineering Specialist
 
-POETAI is a highly specialized poetry engineering system with dual-mode intelligence, designed to create technically flawless Ukrainian verse from both natural language descriptions and technical specifications.
+POETAI is a highly specialized poetry engineering system designed to create technically flawless Ukrainian verse. It operates under the strict **InstructDojo Cybernetic Architecture**, treating poetry not just as art, but as mathematical prosody.
 
-## Available Version
+## ✅ Tested & Verified Models
 
-### **Poetry Master** ([poetai_poetry_master.md](poetai_poetry_master.md)) 🧠 DUAL-MODE
+POETAI has been tested across the Google Gemini model family. **General rule: the newer the model, the better it handles complex prosodic tasks.**
 
-Enhanced Ukrainian poetry system featuring:
+| Model | Status | Poetry Quality | Meter Accuracy | Notes |
+|:------|:-------|:---------------|:---------------|:------|
+| **Gemini 3.1 Pro** | ✅ Best | ⭐⭐⭐⭐⭐ | Excellent | Best-in-class. Exceptional prosodic precision, cultural depth, and linguistic purity. Newest model = best results. |
+| **Gemini 2.5 Pro** | ✅ Verified | ⭐⭐⭐⭐⭐ | Excellent | Fully recommended. Handles complex meters, sound symbolism, and linguistic purity flawlessly. |
+| **Gemini 2.5 Flash** | ✅ Verified | ⭐⭐⭐⭐ | Very Good | Works well for most requests. Occasional minor stress placement issues on complex forms. |
+| **Gemini 3 Flash** | ⚠️ Functional | ⭐⭐⭐ | Acceptable | Works, but may produce meter inconsistencies, occasional stress errors, or blacklisted word usage. Review output carefully. |
 
-**🎨 Natural Language Understanding:**
-- Transform emotional descriptions into verse
-- Extract mood and atmosphere from visions
-- Understand "write something that feels like..."
-- Automatic form selection based on emotion
-- Intuitive poetry creation for everyone
+> 💡 **The newer the model, the better.** Each generation improves prosodic understanding, stress placement accuracy, and adherence to the prompt's safety systems. Always prefer the latest available Pro model.
+
+### Recommended Setup
+
+| Use Case | Recommended Model | Why |
+|:---------|:------------------|:----|
+| Production-quality poetry | Gemini 3.1 Pro / 2.5 Pro | Consistent meter, perfect stress, linguistic purity |
+| Quick drafts / experimentation | Gemini 2.5 Flash | Fast, reliable, minor imperfections acceptable |
+| Budget / high-volume | Gemini 3 Flash | Functional but requires manual review |
+
+> ⚠️ **Flash model note:** The prompt's built-in safety systems (vocabulary blacklist, stress verification, completion checklist) help catch errors, but Flash-tier models may skip verification steps. Always review meter manually when using Flash models — see [Verification Tools](#-verification-tools) below.
+
+---
+
+## 🔍 Verification Tools
+
+After generating poetry, you can verify its technical quality using external analysis tools.
+
+### Poetrum — Поетична лабораторія
+
+**🔗 [https://poetrum.com/](https://poetrum.com/)**
+
+Poetrum (Поетична лабораторія) is a free online service for writing and analyzing Ukrainian verse. Use it to independently verify POETAI's output.
+
+**What Poetrum checks:**
+
+| Feature | What It Analyzes | Why It Matters |
+|:--------|:-----------------|:---------------|
+| **Meter detection** | Identifies the metrical pattern (iamb, trochee, etc.) | Confirms POETAI maintained a single meter throughout |
+| **Stress mapping** | Shows stressed/unstressed syllables per line | Catches any stress errors the model may have made |
+| **Syllable count** | Counts syllables per line | Verifies line length consistency |
+| **Rhyme analysis** | Identifies rhyme scheme and rhyme quality | Confirms rhyme pattern matches the specification |
+| **Rhythm visualization** | Visual stress pattern diagram | Makes meter breaks immediately visible |
+
+**Recommended verification workflow:**
+```text
+1. Generate poem with POETAI
+2. Copy ONLY the Ukrainian verse
+3. Paste into Poetrum → [https://poetrum.com/](https://poetrum.com/)
+4. Compare Poetrum's analysis with POETAI's self-reported PROSODIC ANALYSIS
+5. If discrepancies found → point out the exact word to POETAI
+```
+
+---
+
+## Core Architecture
+
+### **Poetry Master** ([poetai_poetry_master.md](poetai_poetry_master.md)) 🧠
+
+An uncompromising prosody engine featuring:
+
+**🛡️ InstructDojo Cybernetic Standards:**
+- **Response Anchor:** `[POETAI: ACTIVE]` ensures the AI never breaks character.
+- **Zero-Apology Protocol:** If you point out a metrical flaw, the AI instantly confirms the error and rewrites the line without conversational fluff.
+- **Mandatory Pre-Computation:** Outputs an `**Analysis:**` block to plan the meter and sound symbolism *before* writing a single word.
+- **Anti-Lazy Rules:** Delivers the full poem at once. Zero placeholders.
+
+**🌉 The Language Bridge (Non-Negotiable):**
+- **POETRY:** 100% pure Ukrainian (no Russian calques, no Surzhyk).
+- **COMMUNICATION & ANALYSIS:** Strict Technical English for optimal LLM compliance.
 
 **📐 Technical Precision:**
-- Mathematical accuracy in meter implementation
-- Exact stress position matching in rhymes
-- Syllable count verification
-- Poeticum.com standard compliance
-- Professional prosody engineering
+- **Mathematical Prosody:** Single meter enforcement and pre-delivery stress checks on every strong beat.
+- **Vocabulary Safety System:** Built-in blacklist of words that cause LLM stress errors (e.g., *вікно, зима, піч*), preferring fixed-stress alternatives.
 
-**🎭 Dual-Mode Intelligence:**
-- Seamlessly switch between modes
-- Understand both visions and specifications
-- 4-layer interpretation system
-- Emotion-to-technique translation
-- Pattern recognition and adaptation
-
-**🇺🇦 Linguistic Purity:**
-- Zero tolerance for Russian influence
-- Pure Ukrainian vocabulary and syntax
-- Cultural authenticity in expression
-- Modern literary Ukrainian foundation
-- Regional variants when appropriate
+---
 
 ## How to Use POETAI
 
 ### Initial Setup
 
-1. Copy the complete content of [poetai_poetry_master.md](poetai_poetry_master.md)
-2. Send to your AI model as the first message
-3. Wait for "POETAI Ukrainian Poetry Master initialized"
-4. Use natural language OR technical specifications
+1. Copy the complete content of [poetai_poetry_master.md](poetai_poetry_master.md).
+2. Send to your AI model as the **first message** (see [Tested Models](#-tested--verified-models)).
+3. Wait for the initialization response: 
+   > `🛡️ POETAI Prosody Systems Active. Provide the theme, desired mood, preferred meter...`
+4. Use natural language OR technical specifications.
 
-### Dual-Mode Requests
+### Input Examples
 
 **Natural Language Mode:**
-```
-I want a poem that feels like morning dew on spider webs,
-delicate and shimmering with hope
-```
+> "I want a poem that feels like morning dew on spider webs, delicate and shimmering with hope."
 
 **Technical Mode:**
-```
-<poetry_request>
-Create iambic pentameter sonnet about freedom
-</poetry_request>
+> "Create an Amphibrach tetrameter poem about freedom. Rhyme: ABAB. Use hard consonants for a powerful feel."
 
-<technical_specs>
-Rhyme: ABBAABBA CDECDE
-Caesura: after 4th syllable in lines 4,8,12
-</technical_specs>
-```
+---
 
-**Mixed Mode:**
-```
-Write something that sounds like church bells in the distance,
-maybe in trochaic meter with ABAB rhyme
-```
+## Response Structure
 
-### Natural Language Examples
+POETAI uses a strict, visually distinct format:
 
-**Emotional Request:**
-```
-I need a poem that feels heavy with the weight of history,
-like old stones remembering what they've seen
-```
+```markdown
+[POETAI: ACTIVE]
 
-**Atmospheric Request:**
-```
-Create verses that dance like butterflies in summer,
-light and unpredictable but somehow following a pattern
-```
+**Analysis:** The vision requires a delicate, awakening atmosphere. I will use Amphibrach tetrameter for a flowing rhythm, pairing it with soft consonants (л, м, н) and an AABB rhyme scheme.
 
-**Sensory Request:**
-```
-Write poetry that sounds like rain on leaves,
-gentle but persistent, with moments of intensity
+Прокинеться сонце в колисці із хмар,
+Розсипле проміння, мов золото в дар.
+Роса на павутинні — мов сльози нічні,
+Зникають у ранковій, ясний тишині.
+
+✅ Ukrainian poetry complete
+
+PROSODIC ANALYSIS:
+- Meter: Amphibrach Tetrameter (∪ — ∪ | ∪ — ∪...)
+- Rhyme: AABB (Paired rhyme)
+- Sound symbolism: Dominance of soft 'S' and 'L' sounds to evoke delicacy.
+- Stress verification: All strong beats confirmed on natural stresses.
+
+CULTURAL NOTES:
+- Imagery: Personification of the sun (folk tradition).
+- Authenticity: Verified pure Ukrainian lexicon.
 ```
 
-### Technical Request Examples
+> 🔍 **Verify this output:** Copy the Ukrainian verse into [Poetrum](https://poetrum.com/) to independently confirm meter and stress accuracy.
 
-**Classical Sonnet:**
-```
-<poetry_request>
-Create a Petrarchan sonnet about Ukrainian independence
-</poetry_request>
+---
 
-<technical_specs>
-Meter: Iambic pentameter
-Rhyme: ABBAABBA CDECDE
-Length: 14 lines
-</technical_specs>
+## Dual-Mode Intelligence Matrix
 
-<style_preferences>
-Tone: Triumphant yet reflective
-Imagery: Natural symbols of Ukraine
-Era: Contemporary voice with classical form
-</style_preferences>
-```
+### 🎨 **Emotion → Technique Translation**
 
-**Modern Free Verse:**
-```
-<poetry_request>
-Create free verse about digital age loneliness
-</poetry_request>
+POETAI automatically translates feelings into prosodic specifications:
 
-<technical_specs>
-Meter: Free verse with rhythmic patterns
-Length: 20-30 lines
-Structure: 3-4 stanzas
-</technical_specs>
+| Emotion | Meter | Consonants | Vowels | Imagery |
+|:--------|:------|:-----------|:-------|:--------|
+| **Gentle** | Amphibrach | Soft: Л, М, Н | І, Е | Nature, dew, light |
+| **Powerful** | Trochaic | Strong: Р, Д, З, Г | А, О | National symbols, strength |
+| **Sad** | Slow Iambic | Heavy consonants | О, У | Loss, memory, homeland |
+| **Nostalgic** | Folk Amphibrach | Melodic: С, Х, Ш | О, У, И | Village, traditions, grandmother |
 
-<style_preferences>
-Tone: Introspective and melancholic
-Imagery: Technology metaphors
-Era: Contemporary experimental
-</style_preferences>
-```
+### 🔒 **Technical Safety Systems**
 
-## Dual-Mode Intelligence
+Built-in safeguards that prevent common LLM poetry errors:
 
-### 🎨 **Natural Language Processing**
+| System | What It Does | Why It Matters |
+|:-------|:-------------|:---------------|
+| **Vocabulary Blacklist** | Blocks specific words (e.g., "піч", "чарівна") | LLMs misplace stress on these words |
+| **Fixed Stress Preference** | Prioritizes words whose stress doesn't shift | Prevents meter breaks during declension |
+| **Single Meter Rule** | Forbids mixing meters within one poem | Ensures rhythmic consistency |
+| **Caesura Enforcement** | Requires mid-line pause in lines of 11–12 syllables | Prevents rhythmically awkward long lines |
 
-**Emotion → Technique Translation:**
-- "Gentle" → Flowing meters, soft consonants
-- "Powerful" → Strong stresses, explosive sounds
-- "Nostalgic" → Traditional forms, cultural echoes
-- "Modern" → Free verse elements, urban imagery
-- "Romantic" → Melodic patterns, intimate tone
+---
 
-**Atmosphere → Form Mapping:**
-- "Like bells" → Short lines, bright rhymes
-- "Like waves" → Undulating rhythm, enjambment
-- "Like thunder" → Heavy stresses, dark vowels
-- "Like whispers" → Soft sounds, caesuras
-- "Like dancing" → Light meters, varied rhythm
+## Troubleshooting
 
-### 📐 **Technical Specifications**
-
-**Classical Meters:**
-- Iamb (∪ —): contemplative, philosophical
-- Trochee (— ∪): energetic, folk-like
-- Dactyl (— ∪ ∪): flowing, narrative
-- Amphibrach (∪ — ∪): balanced, meditative
-- Anapest (∪ ∪ —): rushing, emotional
-
-**Form Selection by Mood:**
-- Sonnet: Complex emotions, arguments
-- Ballad: Stories, narratives
-- Free verse: Modern themes, flexibility
-- Folk forms: Cultural connection, tradition
-
-## 4-Layer Interpretation
-
-### Layer Analysis Example
-
-**Request:** "Write something that feels like coming home after years away"
-
-**Layer 1 (Surface):** Homecoming poem requested
-
-**Layer 2 (Implicit):** Nostalgia, change, memory, belonging
-
-**Layer 3 (Cultural):** Ukrainian diaspora experience, rural imagery
-
-**Layer 4 (Technical):** Amphibrach for journey rhythm, ABBA for enclosure
-
-## Enhanced Features
-
-### 🔄 **Mode Switching**
-
-POETAI automatically detects and switches between:
-- Pure natural language requests
-- Technical specifications
-- Mixed mode requests
-- Iterative refinements
-- Analysis requests
-
-### 🎯 **Intelligent Defaults**
-
-When using natural language, POETAI selects:
-- Appropriate meter for the mood
-- Rhyme scheme for the emotion
-- Line length for the feeling
-- Stanza structure for impact
-- Sound patterns for atmosphere
-
-### 🔬 **Dual Analysis**
-
-Provides both:
-- **Technical**: Meter, rhyme, structure
-- **Emotional**: Mood progression, impact
-- **Cultural**: Ukrainian elements
-- **Artistic**: Imagery and devices
-
-## Best Practices
-
-### 📋 **For Natural Language Requests**
-
-**Describe the Feeling:**
-- Use sensory descriptions
-- Compare to natural phenomena
-- Mention emotional goals
-- Include atmospheric details
-- Reference memories or experiences
-
-**Examples:**
-- "Like morning mist over the Dnipro"
-- "Heavy as winter silence"
-- "Dancing like wheat in wind"
-- "Echoing like bandura strings"
-
-### 🎯 **For Technical Requests**
-
-**Specify Precisely:**
-- State meter explicitly
-- Define rhyme scheme clearly
-- Specify length requirements
-- Indicate style preferences
-- Request analysis if needed
-
-### 🔄 **For Mixed Requests**
-
-**Combine Both:**
-- Start with feeling/vision
-- Add technical preferences
-- Let POETAI balance both
-- Iterate naturally
-
-## Quality Standards
-
-### Dual-Mode Requirements
-✓ Emotional vision achieved AND technical precision maintained  
-✓ Natural flow within strict constraints  
-✓ Cultural authenticity in both modes  
-✓ Stress matching regardless of request type  
-✓ Pure Ukrainian in all outputs  
-
-### Enhanced Validation
-✓ Emotional resonance check  
-✓ Technical accuracy scan  
-✓ Cultural authenticity verification  
-✓ Natural readability test  
-✓ Impact assessment  
-
-## Success Metrics
-
-### ✅ **Dual Excellence**
-
-**Natural Language Success:**
-- Vision accurately captured
-- Emotion effectively conveyed
-- Atmosphere created
-- Reader impact achieved
-
-**Technical Perfection:**
-- 100% meter consistency
-- Perfect stress matching
-- Correct syllable counts
-- Natural rhythm flow
-
-### 🎭 **Unified Quality**
-
-**Holistic Achievement:**
-- Technical excellence serves emotion
-- Form enhances meaning
-- Constraints create beauty
-- Vision becomes verse
-
-## Getting Started
-
-### For Natural Language Users
-
-1. **Initialize POETAI** (send instruction as first message)
-2. **Describe your vision** in your own words
-3. **Use comparisons** to natural phenomena
-4. **Express the feeling** you want to create
-5. **Receive perfect verse** that matches your vision
-
-### For Technical Users
-
-1. **Initialize POETAI** (send instruction as first message)
-2. **Specify requirements** precisely
-3. **Include all constraints** clearly
-4. **Request analysis** if needed
-5. **Receive flawless implementation**
-
-### For Everyone
-
-Remember: POETAI understands both "I want something that feels like..." AND "Create iambic pentameter with ABAB rhyme"
+| Problem | Likely Cause | Solution |
+|:--------|:-------------|:---------|
+| Meter breaks mid-poem | Model used a word with shifting stress | Point out the word. The Zero-Apology Protocol will fix it instantly. Verify with [Poetrum](https://poetrum.com/). |
+| Russian words appear | Model defaulted to common Slavic roots | Point it out; model will replace with pure Ukrainian. |
+| Output feels generic | Insufficient mood description | Provide more emotional detail: colors, textures, atmosphere. |
+| AI apologizes or chats | Protocol degradation | Remind it: "Enforce Zero-Apology Protocol and Response Anchor." |
+| Flash model skips verification | Flash-tier limits | Verify manually via [Poetrum](https://poetrum.com/) or switch to a Pro model. |
 
 ---
 
 **🎭 Від серця до серця, від думки до рими**
 
-## Examples of Dual-Mode Success
-
-### Natural Request → Technical Excellence
-**Input:** "Write something that sounds like snow falling on pine trees"
-
-**Output:** Perfectly crafted verse in amphibrach meter with soft consonants and hushed vowels, creating the exact atmosphere requested
-
-### Technical Request → Emotional Impact
-**Input:** "Trochaic tetrameter, AABB rhyme, about victory"
-
-**Output:** Technically perfect verse that also captures triumph and celebration through sound and imagery
+---
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Support
 
-- 📖 **Documentation**: This README and instruction file
-- 🐛 **Issues**: Report problems via GitHub Issues
-- 💬 **Discussions**: Share your poetry and experiences
-- ⭐ **Star this repo** if POETAI helps you create beautiful Ukrainian verse!
+* 📖 **Documentation**: This README and instruction file
+* 🔍 **Poetry Verification**: [Poetrum — Поетична лабораторія](https://poetrum.com/)
+* ⭐ **Star this repo** if POETAI helps you create beautiful Ukrainian verse!
 
 ---
 

@@ -5,445 +5,199 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 
-A collection of carefully crafted instruction sets for various AI assistants, designed to enhance their capabilities and make them more effective for specific use cases.
+A collection of master-crafted, production-ready system prompts for AI assistants. InstructDojo transforms generic LLMs into unbreakable, highly specialized engineering systems governed by strict cybernetic standards.
+
+## 🧠 The InstructDojo Cybernetic Architecture
+
+Every agent in this repository operates under a strict 9-step blueprint designed to eliminate AI hallucinations, laziness, and conversational fluff. 
+
+**Core Ecosystem Standards:**
+* ⚓ **Response Anchors (`[AGENT: ACTIVE]`):** Forces the AI to stay in character, preventing protocol degradation over long sessions.
+* 🚫 **Zero-Apology Protocol:** Direct, surgical technical corrections. If an AI makes a mistake, it does not apologize; it outputs `Error confirmed`, explains the fix, and delivers the code.
+* 🌉 **The Language Bridge:** Agents converse in your native language, but meticulously generate logic, selectors, and prompts in Technical English for optimal LLM compliance.
+* 🧠 **Mandatory Pre-Computation (`**Analysis:**`):** Agents must output a brief thought process *before* execution to predict failure modes and plan architecture.
+* ⛔ **Anti-Lazy Protocol:** Zero placeholders. Every response outputs the **full** file, the **entire** workout plan, or the **complete** filter list. If output exceeds limits, it uses smart segmentation (`PART 1 of N`).
+
+---
 
 ## Available Instruction Sets
 
-### [PROMPTCRAFT INSTRUCTION SPECIALIST: Instruction Engineering Expert](promptcraft-specialist/README.md)
+### [PROMPTCRAFT & DOCCRAFT: Agent Factory & Information Architect](promptcraft-specialist/README.md)
 
-PROMPTCRAFT INSTRUCTION SPECIALIST is a highly specialized prompt engineering system designed to transform simple prompts into production-ready AI instruction sets following the InstructDojo framework.
-
-**🔧 NEW: Engineering Expert** - Creates instructions with advanced dual-mode architecture and intelligent design patterns.
-
+**🧠 PROMPTCRAFT: The Agent Factory** is a meta-engineering system that transforms your raw ideas into production-ready AI system prompts. It enforces the strict 9-step InstructDojo Architecture on every new agent it builds.
 **Key Features:**
-- InstructDojo framework implementation with dual-mode architecture
-- Dual-mode instruction creation (natural language AND technical)
-- Simple-to-comprehensive prompt transformation
-- Complete documentation generation
-- Repository integration automation
+* **Cybernetic Standards:** Bakes Response Anchors and the Zero-Apology Protocol into every new agent.
+* **The Language Bridge:** Interacts in your native language, but meticulously generates system prompts in Technical English.
+* **Failure Mode Analysis:** Predicts and prevents AI hallucinations before generating the prompt via mandatory Pre-Computation.
+
+**📖 DOCCRAFT: The Information Architect** is a specialized technical writer that transforms complex system prompts into beautiful, highly readable, and structured documentation.
+**Key Features:**
+* **Anti-Lazy Protocol:** Never uses placeholders. Delivers the complete, copy-paste-ready `README.md` file.
+* **Visual Excellence:** Utilizes Markdown tables, Mermaid.js diagrams, and strategic emojis for maximum scannability.
+* **Fluent Localization:** Translates prose beautifully into your requested language while keeping code and commands in English.
 
 [📖 Full Documentation](promptcraft-specialist/README.md)
 
-### [CODEREFACTORAI: Code Optimization Engineer](coderefactorai-instructions/README.md)
-
-CODEREFACTORAI is a highly specialized code optimization system with dual-mode intelligence, designed to transform both user frustrations and technical specifications into production-ready solutions with measurable improvements.
-
-**⚡ NEW: Dual-Mode Optimization Engineer** - Understands problems AND specifications.
-
-**Key Features:**
-- Natural language problem understanding ("my code is slow")
-- Algorithm complexity reduction (O(n²)→O(n log n))
-- Security vulnerability elimination (OWASP Top 10)
-- Design pattern implementation and SOLID principles
-- Measurable performance improvements
-
-[📖 Full Documentation](coderefactorai-instructions/README.md)
+---
 
 ### [CODEAI: Ultimate Developer Assistant](codeai-instructions/README.md)
 
-CODEAI is a highly specialized software engineering assistant designed to produce technical, non-conversational responses focused on efficiently solving development tasks.
+CODEAI is a highly specialized software engineering ecosystem designed to produce technical, non-conversational responses focused on efficiently solving development tasks, elevating UI/UX design, and mentoring developers.
 
-**🏆 NEW: Enhanced Dual-Mode Versions** - Revolutionary natural language understanding with technical precision.
+**Available Versions:**
+- **Developer Expert** 🔧 — Senior/Principal Software Engineer. APIs, backends, algorithms, full-stack. SOLID/DRY/KISS/YAGNI. 
+- **Hybrid Master** 🚀 — Full-Stack Engineer + Product Designer. Adjustable 50/50 balance. Turnkey products that work like a Swiss watch and feel like magic.
+- **Vibe Developer** 🎨 — Creative Senior Frontend Engineer. Emotion-first design with engineering foundation. Transforms vibes into living interfaces.
+- **Tech Mentor** 🧠 — Staff Engineer & Technical Educator. Code reviews, architecture audits, and debugging using the Socratic method.
 
-**Key Features:**
-- **Enhanced Agent**: Dual-mode intelligence with tools ⭐ RECOMMENDED
-- **Enhanced Chat**: Advanced dual-mode for chat environments 💬 REVOLUTIONARY
-- **Vibe-Coding**: Enhanced dual-mode natural language coding 🎨 GAME-CHANGING
-- **Ultimate Agent**: Maximum intelligence for system integration 🏆 FOR DEVELOPERS
-- Complete tool suite for file operations, testing, and MCP server management
-- Direct technical communication style with professional-grade responses
+**Key Features Across All Ecosystem:**
+- OWASP Top 10 security built into every implementation.
+- WCAG 2.1 AA accessibility as a non-negotiable baseline.
+- Strict no-placeholder policy for builders (complete files).
+- Zero-Apology Protocol — direct technical corrections without fluff.
 
 [📖 Full Documentation](codeai-instructions/README.md)
 
-### [FITNESSAI: Fitness Engineering Specialist](fitness-instructions/README.md)
+---
 
-FITNESSAI is a highly specialized fitness engineering system with dual-mode intelligence, designed to create evidence-based training programs from both natural language goals and technical specifications.
+### [CODEREFACTORAI: Surgical Code Optimization System](coderefactorai-instructions/README.md)
 
-**🏋️ NEW: Dual-Mode Ultimate Coach** - Understands fitness visions AND specifications.
+CODEREFACTORAI is a specialized engineering assistant designed to transform legacy debt, security vulnerabilities, and performance bottlenecks into high-precision, production-ready solutions. 
 
 **Key Features:**
-- Natural language fitness goal understanding
-- Performance-based programming with metrics
-- Evidence-based nutrition engineering
-- Recovery optimization protocols
-- Safety-first implementation
+* **Full File Delivery:** Outputs the **entire** refactored file — including unchanged parts. Copy → Paste → Done.
+* **OWASP Security Built-in:** Actively hunts for and fixes OWASP vulnerabilities during every refactor.
+* **Large File Segmentation:** Splits into labeled parts (`// PART 1 of N`) instead of truncating. Say `<continue>` for the next part.
+* **Honest Metrics:** Provides precise Big-O complexity analysis and flags assumptions.
+
+[📖 Full Documentation](coderefactorai-instructions/README.md)
+
+---
+
+### [FITNESSAI: Human Performance Architect](fitness-instructions/README.md)
+
+FITNESSAI is a highly specialized fitness engineering system designed to create evidence-based training programs in any language while maintaining biomechanical precision. Built on current state-of-the-art exercise science.
+
+**Key Features:**
+* **Mandatory Pre-Computation:** Always outputs a brief `**Analysis:**` explaining *why* it chose a specific periodization or substitution based on your constraints.
+* **Anti-Lazy Protocol:** Every training day is written out as a complete, gym-ready table. No "Repeat Day 1", no ambiguous ranges.
+* **Modern Hypertrophy Science:** Lengthened partials, effective reps, RIR (Reps In Reserve), and mandatory eccentric control.
+* **Evidence-Based Supplement Guide:** Tier A/B/F system that honestly labels what works, what's situational, and what's a waste of money.
 
 [📖 Full Documentation](fitness-instructions/README.md)
 
-### [BLOCKFILTERAI: Privacy & Security Specialist](adblock-instructions/README.md)
+---
 
-BLOCKFILTERAI is a highly specialized privacy and security system with dual-mode intelligence, designed to create precise web content filtering solutions from both user frustrations and technical specifications.
+### [BLOCKFILTERAI: Surgical Web Filtering Architect](adblock-instructions/README.md)
 
-**🛡️ NEW: Dual-Mode Privacy Expert** - Understands annoyances AND technical requirements.
+BLOCKFILTERAI is a specialized engineering system designed to create high-performance, unbreakable uBlock Origin filters, optimized for modern browser standards (Manifest V3, Native CSS, Shadow DOM). 
 
 **Key Features:**
-- Natural language ad blocking ("remove these annoying popups")
-- Technical uBlock Origin filter engineering
-- Performance-optimized content blocking
-- Privacy protection and tracking prevention
-- Zero false positive targeting with surgical precision
+* **Network First:** Prioritizes blocking requests (`||domain^`) over cosmetic hiding.
+* **Structural Anchoring:** Defeats randomized/AI-generated IDs using stable text, SVGs, and `aria-label` attributes.
+* **Native Language Selectors:** Responds in your language, but **never translates** the site's text. Generates precise regex matches (e.g., `Спонсорский контент`, `Реклама`) based on the target DOM.
+* **Complete Filter Delivery:** No `! ... add more rules` placeholders. Large filter sets are cleanly segmented.
 
 [📖 Full Documentation](adblock-instructions/README.md)
 
+---
+
 ### [POETAI: Ukrainian Poetry Engineering Specialist](poetry-instructions/README.md)
 
-POETAI is a highly specialized poetry engineering system with dual-mode intelligence, designed to create technically flawless Ukrainian verse from both natural language descriptions and technical specifications.
-
-**🎭 NEW: Dual-Mode Poetry Master** - Understands poetic visions AND technical requirements.
+POETAI is a highly specialized linguistic engine designed to generate authentic, metrically perfect Ukrainian poetry. It treats poetry not just as art, but as mathematical prosody. Tested and verified on Google Gemini models.
 
 **Key Features:**
-- Natural language poetry vision understanding
-- Mathematical precision in meter and rhyme
-- Pure Ukrainian linguistic standards
-- Poeticum.com technical integration
-- Classical and contemporary forms
+- **The Language Bridge:** Poetry is 100% Ukrainian; technical prosody analysis is strictly English.
+- **Vocabulary Safety System:** Built-in blacklist of words that cause LLM stress errors (e.g., *вікно, зима*), preferring fixed-stress alternatives.
+- **Single Meter Rule:** Enforces strict adherence to specific meters (Amphibrach, Iambic, Trochaic) without drifting.
+- **[Poetrum.com](https://poetrum.com/) Integration** — Independent verification of meter, stress, and rhyme accuracy.
 
 [📖 Full Documentation](poetry-instructions/README.md)
 
+---
+
 ## Quick Start
 
-### For Direct Use (Most Users)
-1. **Choose Enhanced Agent, Enhanced Chat, or Vibe-Coding** from CODEAI instructions
-2. **Copy complete instruction content** to your AI model
-3. **Send as first message** and wait for initialization
-4. **Begin development tasks** immediately
-5. **Use natural language OR technical requests** - all versions adapt automatically
+1. **Choose your assistant** based on your needs from the directories above.
+2. **Copy the complete `.md` system prompt file.**
+3. **Paste as the FIRST message** in your LLM (ChatGPT, Claude, Gemini).
+4. **Wait for initialization** (e.g., `🛡️ CODEAI Systems Active`).
+5. **Provide your request.** 6. *Note on Large Outputs:* If a response ends with an explicit segmentation marker (e.g., `PART 1 of 2. Say <continue>`), simply reply with `<continue>`.
 
-### For System Integration (Developers)
-1. **Choose Ultimate Agent** from CODEAI instructions
-2. **Use as system instruction** in your AI agent configuration
-3. **Customize and extend** as needed for your use case
-4. **Test integration** thoroughly
-5. **Document modifications** made
+---
 
 ## Repository Structure
 
-```
+```text
 InstructDojo/
 ├── README.md                               # This file
 ├── LICENSE                                 # MIT License
 ├── CONTRIBUTING.md                         # Contribution guidelines
-├── promptcraft-specialist/                 # Instruction design expert
-│   ├── README.md                           # Documentation
-│   └── promptcraft_instruction_specialist.md
-├── coderefactorai-instructions/            # Code optimization
-│   ├── README.md                           # Documentation
+│
+├── promptcraft-specialist/                 # Agent & Docs Creation
+│   ├── promptcraft_architect.md
+│   └── doccraft_architect.md
+│
+├── codeai-instructions/                    # Software Engineering
+│   ├── codeai_developer_expert.md          
+│   ├── codeai_hybrid_master.md             
+│   └── codeai_vibe_developer.md            
+│
+├── coderefactorai-instructions/            # Code Optimization
 │   └── coderefactorai_optimization.md
-├── codeai-instructions/                    # Ultimate developer assistant
-│   ├── README.md                           # Documentation
-│   ├── agent/                              # Tool-enabled versions
-│   │   ├── codeai_agent_enhanced.md        # ⭐ Direct use with tools
-│   │   └── codeai_agent_ultimate.md        # 🏆 System integration
-│   └── chat/                               # Chat-only versions
-│       ├── codeai_chat_extended.md         # 💬 Dual-mode intelligence
-│       └── vibe_coding_codeai.md           # 🎨 Enhanced dual-mode
-├── fitness-instructions/                   # Fitness assistant
-│   ├── README.md                           # Documentation
-│   └── fitnessai_ultimate_coach.md
-├── adblock-instructions/                   # Privacy & security
-│   ├── README.md                           # Documentation
-│   └── blockfilterai_filter_expert.md
-└── poetry-instructions/                    # Poetry creation
-    ├── README.md                           # Documentation
+│
+├── fitness-instructions/                   # Fitness & Science
+│   └── fitnessai_coach.md
+│
+├── adblock-instructions/                   # Privacy & Ad Blocking
+│   └── blockfilterai_expert.md
+│
+└── poetry-instructions/                    # Prosody & Poetry
     └── poetai_poetry_master.md
 ```
 
-## Why InstructDojo?
+---
 
-### 🎯 **Specialized Performance**
-Transform general AI into domain experts with engineered instructions that produce precise, technical responses.
+## The Cybernetic Architecture in Action
 
-### 🔧 **Production Ready**
-Each instruction includes safety measures, error handling, and performance optimization for reliable deployment.
+### ⚡ **Surgical Code Optimization (CODEREFACTORAI)**
+**Request:** "This endpoint is slow with 1000 users. Fix it."
+**Action:** The AI outputs `[CODEREFACTORAI: ACTIVE]`, writes an `**Analysis:**` diagnosing an O(n²) loop, and delivers the **entire refactored file** using HashMaps for O(n) complexity. No placeholders. Copy, paste, deploy.
 
-### 📊 **Measurable Results**
-Instructions designed with metrics and quality standards for verifiable improvements.
+### 🛡️ **Precise Filter Engineering (BLOCKFILTERAI)**
+**Request:** "Remove sponsored posts on this Ukrainian news site. I'm on Chrome."
+**Action:** The AI enforces the **Language Bridge**. It speaks to you in English, but generates CSS selectors using the native DOM text: `##div:has(span:has-text(/^Реклама$/))`. It outputs MV3-safe network filters and cosmetic rules instantly.
 
-### 🏗️ **Unified Intelligent Architecture**
-All instructions follow the advanced dual-mode methodology - direct, technical, and adaptively intelligent.
+### 🏋️ **Anti-Lazy Fitness Plans (FITNESSAI)**
+**Request:** "I need a 3-day full-body routine."
+**Action:** The AI outputs **three distinct, complete tables**. It does not write "Repeat Day 1." Every single day has exact reps, sets, tempo, RIR, and rest periods written out explicitly. 
 
-### 💡 **Domain Expertise**
-From software engineering to fitness, poetry to privacy protection - comprehensive coverage with deep specialization.
+### 🎭 **Prosody Math (POETAI)**
+**Request:** "Write a poem about rain in the mountains."
+**Action:** The AI pre-computes the meter in the `**Analysis:**` block (e.g., Amphibrach tetrameter), actively avoids blacklisted words that cause LLM stress-mapping errors, and outputs a metrically perfect Ukrainian poem with an English prosodic breakdown.
 
-### 🧠 **Revolutionary Dual-Mode Intelligence**
-All enhanced versions understand both natural language visions AND technical requirements, adapting automatically to your communication style while preserving existing patterns.
-
-### ⚙️ **Flexible Integration**
-Choose between direct-use versions (ready to go) or system integration versions (for developers building custom agents).
-
-### 🎨 **Natural Language to Production Code**
-Transform descriptions into production-ready applications - works with both new projects AND existing codebases while preserving patterns and architectural decisions.
-
-## Dual-Mode Intelligence in Action
-
-### 🎨 **Natural Language → Complete Application**
-
-**User Request (to CODEAI Vibe-Coding):**
-```
-Create a portfolio website that feels like walking through 
-an art gallery - clean, spacious, with each project 
-telling its own story
-```
-
-**CODEAI Generated:**
-- Complete React portfolio with masonry grid layout
-- Smooth hover animations and project storytelling sections
-- Gallery-inspired typography and spacing
-- Mobile-responsive with accessibility features
-- **Result:** Production-ready portfolio in minutes
-
-### 🔄 **Enhance Existing Code Naturally**
-
-**User Request (to CODEAI Enhanced Chat):**
-```
-Make my dashboard feel more alive and responsive.
-Currently it's static and updates only on refresh.
-[shares existing Dashboard.tsx code]
-```
-
-**CODEAI Enhanced:**
-- Added WebSocket real-time updates while preserving existing patterns
-- Implemented smooth number animations and activity indicators  
-- Maintained original file structure and naming conventions
-- **Result:** 73% performance improvement, zero breaking changes
-
-### ⚡ **Technical Precision + Vision Understanding**
-
-**User Request (to CODEAI Enhanced Agent):**
-```
-<task>
-Add authentication that feels seamless but secure
-</task>
-<context>
-React app with TypeScript, existing routing
-</context>
-```
-
-**CODEAI Delivered:**
-- JWT implementation with refresh tokens and secure storage
-- Invisible auto-refresh mechanism for smooth UX
-- Protected route wrapper respecting existing router patterns
-- **Result:** Enterprise-grade security with zero friction
-
-## Featured Assistants
-
-### 🛠️ **For Instruction Designers**
-**PROMPTCRAFT INSTRUCTION SPECIALIST** provides expert-level instruction engineering with:
-- Dual-mode InstructDojo framework implementation
-- Advanced methodology enforcement with natural language understanding
-- Complete documentation generation
-- Repository integration automation
-- Quality verification systems
-
-### ⚡ **For Code Engineers**
-**CODEREFACTORAI** provides dual-mode code transformation expertise with:
-- User frustration to technical solution translation
-- Algorithm optimization (measurable improvements)
-- Security vulnerability elimination
-- Design pattern implementation
-- Performance metric tracking
-- Technical debt reduction
-
-### 🖥️ **For Software Developers**
-**CODEAI** provides comprehensive development assistance with revolutionary dual-mode versions:
-
-**For Direct Use:**
-- **Enhanced Agent** ⭐: Dual-mode intelligence with tools - send as first message
-- **Enhanced Chat** 💬: Advanced dual-mode for chat - natural language AND technical analysis
-- **Vibe-Coding** 🎨: Enhanced dual-mode natural language coding - create new OR enhance existing
-
-**For System Integration:**
-- **Ultimate Agent** 🏆: Maximum dual-mode intelligence - use as system instruction
-
-**Revolutionary Capabilities:**
-- 4-layer interpretation (surface → implicit → emotional → technical)
-- Pattern preservation when modifying existing code
-- Domain-specific awareness (startup vs enterprise)
-- Experience-first development approach
-- Seamless mode switching between natural and technical
-- Vision-to-code transformation
-
-### 🎨 **For Natural Language Development**
-**CODEAI Enhanced Versions** offer revolutionary development with:
-- **Enhanced Chat**: Dual-mode for any request style
-- **Vibe-Coding**: Extended capabilities for existing code
-- Natural language to production code transformation
-- Automatic technology stack selection
-- Complete implementation from descriptions
-- Pattern recognition and preservation for existing codebases
-- Iterative refinement through conversation
-- No coding knowledge required
-
-### 🏋️ **For Fitness Engineers**
-**FITNESSAI** offers dual-mode scientific programming with:
-- Natural language fitness goal understanding
-- Evidence-based protocols
-- Performance metric tracking
-- Nutrition engineering
-- Recovery optimization
-- Safety-first approach
-
-### 🛡️ **For Privacy & Security Specialists**
-**BLOCKFILTERAI** provides dual-mode web protection with:
-- Natural language ad blocking ("remove these annoying cookie banners")
-- Technical uBlock Origin filter engineering and CSS selector optimization
-- Performance-optimized content blocking with zero false positives
-- Privacy protection and tracking prevention strategies
-- User experience focused solutions with surgical precision
-
-### 🎭 **For Poetry Engineers**
-**POETAI** provides dual-mode verse engineering with:
-- Natural language poetry vision understanding
-- Mathematical prosody precision
-- Ukrainian linguistic purity
-- Poeticum.com integration
-- Technical meter analysis
-- Cultural authenticity
+---
 
 ## Contributing
 
 We welcome contributions! Here's how you can help:
 
-### Creating New Instruction Sets
-1. Use [PROMPTCRAFT INSTRUCTION SPECIALIST](promptcraft-specialist/promptcraft_instruction_specialist.md) to create your instruction
-2. Follow the InstructDojo framework and intelligent instruction methodology
-3. Test thoroughly with multiple AI models
-4. Submit a pull request following our [contribution guidelines](CONTRIBUTING.md)
+1. Use **PROMPTCRAFT** to architect your new agent instruction.
+2. Ensure it strictly follows the InstructDojo Cybernetic Architecture (Anchor, Zero-Apology, Anti-Lazy).
+3. Use **DOCCRAFT** to generate the `README.md` for your agent.
+4. Submit a pull request following our [contribution guidelines](CONTRIBUTING.md).
 
-### Improving Existing Sets
-- Report issues or bugs
-- Submit performance optimizations
-- Add new capabilities
-- Enhance documentation
-- Share success metrics
-
-### Community Requests
-Have an idea for a new specialized assistant? [Open an issue](../../issues) and let us know!
-
-### Contribution Standards
-- Maintain intelligent dual-mode methodology consistency
-- Include measurable improvements
-- Provide complete examples
-- Follow semantic versioning
-- See [CONTRIBUTING.md](CONTRIBUTING.md) for details
-
-## Best Practices
-
-### For Instruction Creators
-- **Engineer, don't write** - focus on technical precision
-- **Implement dual-mode intelligence** - support both natural and technical communication
-- **Measure everything** - include performance metrics
-- **Safety first** - implement comprehensive safeguards
-- **Test thoroughly** - verify across different scenarios
-- **Document clearly** - technical accuracy over prose
-
-### For Users (Direct Use)
-- **Choose Enhanced versions** for immediate use
-- **Send complete instruction as first message**
-- **Wait for initialization response**
-- **Use natural language OR technical requests** - all versions adapt
-- **Iterate naturally** - describe what you want in plain language
-- **Follow continuation commands** for incomplete responses
-
-### For Developers (System Integration)
-- **Choose Ultimate Agent** for custom systems
-- **Use as system instructions** not first messages
-- **Customize and extend** as needed
-- **Test integration thoroughly**
-- **Document modifications** made
-
-### For Natural Language Interaction
-- **Describe your vision** - how it should feel and work
-- **Trust the intelligence** - automatic mode detection and switching
-- **Iterate naturally** - "make it more modern", "add excitement"
-- **Share existing code** for pattern-preserving enhancements
-- **Focus on experience** - what users should feel and accomplish
-
-## Success Stories
-
-### 🛠️ **Instruction Engineering**
-"PROMPTCRAFT INSTRUCTION SPECIALIST's dual-mode approach transformed our instruction creation process. We now create instructions that understand both visionary descriptions and technical specifications, significantly improving AI versatility."
-
-### 💻 **Development Efficiency**
-"CODEAI Enhanced Agent's dual-mode intelligence increased our team productivity by 60%. Designers describe visions naturally while developers provide technical specs - both get perfect results."
-
-### 🧠 **Revolutionary Dual-Mode Intelligence**
-"The game-changer is how CODEAI understands 'make it feel modern' and translates that into specific technical implementations. Our non-technical stakeholders can now directly communicate with our AI development assistant."
-
-### 🏗️ **System Integration**
-"CODEAI Ultimate Agent's advanced dual-mode intelligence integrated perfectly into our custom development platform, providing enterprise-grade capabilities that understand both business visions and technical requirements."
-
-### 🎨 **Natural Language Coding Revolution**
-"CODEAI Vibe-Coding's ability to enhance existing code while preserving our patterns is revolutionary. We described how to make our dashboard 'feel more alive' and it added real-time updates and smooth animations that perfectly matched our existing architecture."
-
-### ⚡ **Code Optimization**
-"CODEREFACTORAI's dual-mode approach is brilliant - we described user complaints about slowness, and it diagnosed and fixed specific performance bottlenecks, reducing response time by 73%."
-
-### 🏋️ **Fitness Results**
-"FITNESSAI's dual-mode approach lets clients describe their fitness goals naturally while providing scientific precision in programming. Results improved 2x compared to traditional methods."
-
-### 🛡️ **Privacy Protection Success**
-"BLOCKFILTERAI's natural language approach revolutionized our content filtering. We simply described 'remove those annoying popup ads' and got precise uBlock Origin filters that eliminated annoyances without breaking sites. Performance improved 40% with zero false positives."
-
-### 🎭 **Poetry Excellence**
-"POETAI's dual-mode intelligence transforms poetic visions into technically flawless Ukrainian verse. We can describe the feeling we want to evoke, and it creates mathematically precise poetry that captures exactly that emotion."
-
-*Share your success story by opening a discussion!*
-
-## Technical Specifications
-
-### Instruction Standards
-- **Architecture**: Advanced dual-mode intelligent design
-- **Structure**: Consistent framework components with natural language understanding
-- **Response**: Direct, no initialization messages (system versions)
-- **Initialization**: Required response for direct-use versions
-- **Safety**: Comprehensive error handling
-- **Performance**: Optimized for efficiency
-- **Intelligence**: Advanced dual-mode pattern recognition
-
-### Quality Metrics
-- **Accuracy**: Domain expertise verification
-- **Efficiency**: Response time optimization
-- **Reliability**: Consistent output quality
-- **Maintainability**: Clear documentation
-- **Scalability**: Adaptable to various use cases
-- **Intelligence**: Context-aware dual-mode analysis
-
-### CODEAI Version Comparison
-
-**For Direct Use (Send as First Message):**
-- **Enhanced Agent** ⭐: Dual-mode intelligence with tools - recommended for most users
-- **Enhanced Chat** 💬: Advanced dual-mode for chat - natural language AND technical analysis
-- **Vibe-Coding** 🎨: Enhanced dual-mode natural language coding - create new OR modify existing
-
-**For System Integration (Use as System Instruction):**
-- **Ultimate Agent** 🏆: Maximum dual-mode intelligence - for developers building custom agents
-
-### Revolutionary Dual-Mode Capabilities
-- **4-Layer Analysis**: Surface → Implicit → Emotional → Technical understanding
-- **Pattern Preservation**: Maintains existing code conventions when enhancing
-- **Domain Awareness**: Understands startup vs enterprise vs personal project needs
-- **Experience Engineering**: Translates feelings into technical implementations
-- **Seamless Integration**: New code feels native to existing codebases
-- **Mode Flexibility**: Automatic switching between natural and technical communication
-- **Vision Translation**: Converts ideas into technical specifications
+---
 
 ## License
 
-This repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-- 📖 **Documentation**: Check individual README files in each directory
-- 🐛 **Issues**: Report bugs or request features via [GitHub Issues](../../issues)
-- 💬 **Discussions**: Join conversations in [GitHub Discussions](../../discussions)
-- ⭐ **Star this repo** if you find it useful!
+This repository is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
 
-**Engineering better AI interactions through precision dual-mode instruction design**
+**Engineering unbreakable AI interactions through strict cybernetic standards.**
 
 **Made with ❤️ for the AI engineering community**
 

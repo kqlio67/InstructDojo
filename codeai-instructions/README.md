@@ -1,232 +1,226 @@
 # CODEAI: Ultimate Developer Assistant
 
-CODEAI is a highly specialized software engineering assistant designed to produce technical, non-conversational responses focused on efficiently solving development tasks. It excels at code analysis, generation, optimization, testing, and security implementation across multiple programming languages and frameworks.
+CODEAI is a highly specialized software engineering assistant designed to produce technical, non-conversational responses focused on efficiently solving development tasks. It excels at code analysis, generation, optimization, testing, security implementation, and technical education across multiple programming languages and frameworks. Each version is purpose-built for a specific workflow — from pure backend engineering to emotion-driven frontend design, full-stack hybrid products, and high-level architectural mentoring.
 
 ## Available Versions
 
-### **Enhanced Agent** ([agent/codeai_agent_enhanced.md](agent/codeai_agent_enhanced.md)) ⭐ RECOMMENDED FOR USERS
+### **Developer Expert** ([codeai_developer_expert.md](codeai_developer_expert.md)) 🔧 UNIVERSAL TECHNICAL EXPERT
 
-Clean and optimized development assistant featuring:
+Senior/Principal Software Engineer for any development task featuring:
 
-**🔧 Core Development:**
-- Streamlined instruction set with dual-mode intelligence
-- Enhanced tool descriptions with detailed parameter explanations
-- Mandatory search_code usage for every request
-- Improved planning workflow with structured implementation plans
-- Professional-grade development assistance
+**💻 Production-Grade Engineering:**
+- 100% rigorous engineering — reliability, security, performance, and maintainability above all
+- Universal expertise across all programming languages and frameworks (stack-agnostic — does not favor any language or framework unless specified)
+- Production-ready code with SOLID, DRY, KISS, YAGNI principles
+- Complete implementations with comprehensive error handling — no uncontrolled crashes
+- Security-first approach (OWASP Top 10 built-in as single authoritative section)
+- Performance optimization (no N+1 queries, no memory leaks, optimal algorithmic complexity)
 
-**⚡ Quick Workflow:**
-- Clear patterns for common development tasks
-- Enhanced file editing practices (edit_file vs create_file)
-- One tool per message with confirmation workflow
-- Complete content requirements (no placeholders)
-- Direct technical communication style
+**🎯 Technical Precision:**
+- Direct technical communication — minimum words, maximum substance
+- Functions under 50 lines, low cyclomatic complexity
+- Comments explain "why", never "what"
+- Stack auto-detection from provided code
+- ROLE framework for structured request parsing (Role, Objective, Context/Stack, Constraints, Output Format)
+- Iterative development protocol for complex projects (architecture first → module-by-module → integration)
+- One-shot pattern recognition — matches user's code style as binding constraint
 
-**🛠️ Full Tool Suite:**
-- File operations (create, edit, read)
-- Code execution and testing
-- Browser automation with Puppeteer
-- MCP server support and creation
-- Intelligent code search and analysis
+**🔒 Security & Accessibility:**
+- OWASP Top 10 with concrete forbidden/required lists (single authoritative section — no duplication)
+- WCAG 2.1 AA baseline (keyboard navigation, ARIA, contrast, focus indicators, reduced motion)
+- Parameterized queries, input validation, CSP headers, CSRF protection
+- Environment variables for secrets — never hardcoded
+- JWT with HttpOnly, Secure, SameSite tokens
 
-**🧠 Dual-Mode Intelligence:**
-- Natural language understanding for vision-driven development
-- Technical specification analysis for precise implementation
-- Seamless switching between creative and analytical approaches
-- Context-aware responses with implicit requirement extraction
-
-**✅ Ready to Use:**
-- **Send as first message** to initialize CODEAI
-- Includes initialization response requirement
-- Optimized for direct user interaction
-
-### **Enhanced Chat** ([chat/codeai_chat_extended.md](chat/codeai_chat_extended.md)) 💬 RECOMMENDED FOR CHAT
-
-Dual-mode intelligent system for chat-only environments featuring:
-
-**🎯 Dual Intelligence:**
-- **Natural Language Mode**: Transform visions into technical solutions
-- **Code Analysis Mode**: Deep pattern recognition for existing codebases
-- Seamless switching between creative and analytical approaches
-- Context-aware responses with implicit requirement extraction
-
-**🧠 Advanced Capabilities:**
-- 4-layer interpretation (surface, implicit, emotional, technical)
-- Domain-specific awareness (startup vs enterprise needs)
-- Vibe translation ("modern" → specific technical stack)
-- Pattern preservation when modifying existing code
-- Experience-first development approach
-
-**💡 Smart Integration:**
-- Analyzes existing patterns before suggesting changes
-- New code feels native to your codebase
-- Maintains architectural consistency
-- Respects established conventions
+**⚡ Smart Workflow:**
+- Smart Decision Matrix — knows when to plan vs. implement directly
+- Physical plan files in Agent Mode (TASK_PLAN.md with markdown checklists, proportional update frequency)
+- Structured debug format (Error → Location → Cause → Fix → Prevention)
+- Graceful failure — always delivers alternatives, never says "I can't"
+- Batched clarification questions — minimizes interruptions to user workflow
+- Adapts to user level (beginner/intermediate/expert)
+- Workspace cleanliness — scratch files in .scratch/ or temp/, never in production directories
+- Testing guidance — when to include tests, what to cover, framework recommendations
+- Asks about stack if not specified — does not assume
 
 **✅ Ready to Use:**
 - **Send as first message** to initialize CODEAI
-- Works with both natural language and technical requests
-- Optimized for chat-only environments
+- Works in any chat interface (ChatGPT, Claude, Gemini, etc.)
+- Works in any IDE agent (Cursor, Windsurf, or any other environment)
+- No tools required — instant expert assistance
 
-### **Vibe-Coding** ([chat/vibe_coding_codeai.md](chat/vibe_coding_codeai.md)) 🎨 FOR NATURAL LANGUAGE CODING
+---
 
-Enhanced dual-mode system for natural language development featuring:
+### **Hybrid Master** ([codeai_hybrid_master.md](codeai_hybrid_master.md)) 🚀 BALANCED FULL-STACK
 
-**🌟 Natural Language First:**
-- Transform ideas and descriptions into production-ready code
-- Extract technical requirements from casual language
-- Understand "vibe" and translate to technical specifications
-- No coding knowledge required from users
+Senior/Principal Full-Stack Engineer + Product Designer for turnkey products featuring:
 
-**🔄 Dual-Mode Operation:**
-- **Pure Vibe-Coding**: Create new projects from natural descriptions
-- **Vibe-Integration**: Enhance existing code while preserving patterns
-- Seamless switching between creation and modification
-- Natural language refinement for both modes
+**⚖️ Adjustable Balance:**
+- Default: 50% deep technical engineering + 50% emotional design
+- User-adjustable per request ("today 80/20 for admin panel") — never zero on either side
+- Decision Matrix with explicit tech/vibe weights per task type
+- Domain-aware: financial → 70/30, portfolio → 20/80, SaaS → 60/40, API backend → 90/10
+- ROLE framework extended with Balance Preference and Design Requirements
 
-**🎯 Intelligent Translation:**
-- Multi-layer analysis (surface → implicit → emotional → technical)
-- Automatic technology stack selection
-- Complete implementation from descriptions
-- Pattern recognition for existing codebases
-- Iterative refinement through conversation
+**🔧 Invisible Power (Technical Layer):**
+- Scalable architecture, data security, query optimization
+- Clean maintainable business logic with SOLID, DRY, KISS, YAGNI
+- All complex processes — instant and invisible to the user
+- Comprehensive error handling with backend logging — friendly messages to users, technical details to developers
+- Full OWASP Top 10 security (single authoritative section)
 
-**💡 Advanced Vibe Extraction:**
-- Performance vibes: "snappy" → optimistic updates, <50ms interactions
-- Visual vibes: "cozy" → warm colors, soft edges, gentle animations
-- Interaction vibes: "magical" → smart defaults, invisible complexity
-- Emotional engineering patterns included
+**🎨 Living Interface (Emotional Layer):**
+- Micro-interactions, skeleton loading, empty states, polished notifications
+- Interactions that feel physically natural (spring physics for playful, slow easing for luxury, snappy for energetic)
+- Every interactive element: hover, active, focus, loading, success, error, disabled states — all vibe-consistent
+- Design tokens (CSS custom properties) for consistency and easy vibe tuning
+- UI/UX Aesthetics Excellence — tailored palettes, modern typography, spatial harmony
+- Vibe translation principles — context-aware (same word means different things for different domains)
 
-**🛠️ Production Excellence:**
-- Every implementation includes error handling
-- Loading, empty, and success states
-- Accessibility and performance optimization
-- Security best practices built-in
+**🔗 Function ↔ Emotion Bridges:**
+- Fast loading → Excitement and trust; Secure login → Feeling of safety; Error recovery → Relief and confidence
+- Smooth transitions → Reduce perceived load time; Friendly errors → Fewer support tickets; Progressive disclosure → Reduced cognitive load
+- Performance enables experience; Security feels protective, not restrictive
+- Dual-mode intelligence: natural language, technical specs, design specs, or mixed input → unified hybrid solution
 
 **✅ Ready to Use:**
 - **Send as first message** to initialize CODEAI
-- Describe your vision in plain language
-- Works with both new projects and existing code
-- Get complete, working applications
+- Perfect for full applications, SaaS, dashboards, e-commerce
+- Mix technical and natural language requests
+- "The product must work like a Swiss watch and feel like magic"
 
-### **Ultimate Agent** ([agent/codeai_agent_ultimate.md](agent/codeai_agent_ultimate.md)) 🏆 FOR DEVELOPERS/SYSTEM USE
+---
 
-Maximum capabilities development system featuring:
+### **Vibe Developer** ([codeai_vibe_developer.md](codeai_vibe_developer.md)) 🎨 EMOTION-TO-CODE EXPERT
 
-**🧠 Advanced Dual-Mode Intelligence:**
-- Sophisticated natural language understanding and technical analysis
-- Multi-layer interpretation for complex development scenarios
-- Advanced vision translation capabilities
-- Enterprise-grade problem solving
+Creative Senior Frontend Engineer and UI/UX visionary for feeling-driven development featuring:
 
-**📋 Professional Features:**
-- Enhanced file formatting with syntax highlighting
-- Comprehensive mistake avoidance and decision frameworks
-- XML tool usage examples and formatting guides
-- Enterprise-level development task handling
-- Complex codebase modification expertise
+**🌟 Emotion-First Design with Engineering Foundation:**
+- Transform feelings, moods, and vibes into living visual interfaces
+- Balances rigorous frontend engineering with total dedication to aesthetics and emotional storytelling
+- Principle-based vibe translation (not hardcoded values — starting points adapted to project context)
+- "Cozy" for a bookstore ≠ "cozy" for a gaming platform ≠ "cozy" for a children's app
+- Frontend engineering principles applied to design: DRY (design tokens), KISS (don't over-engineer animations), Single Responsibility (focused components)
 
-**🏗️ Architectural Excellence:**
-- Advanced pattern recognition and integration strategies
-- Sophisticated planning and implementation workflows
-- Scalability and maintainability focus
-- Future-proofing considerations
+**🎨 Design Mastery:**
+- Color psychology and texture expertise — tailored HSL palettes for emotional tuning
+- Typography as brand voice — font pairing, tracking, weight as character instruments, clear hierarchy
+- Spatial harmony — negative space mastery, visual rhythm, emotional pacing
+- Living micro-interactions — appropriate easing curves, scroll animations, parallax, interactive feedback
+- UI/UX Aesthetics Excellence — no generic or unstyled output, every element visually polished
 
-**⚙️ System Integration:**
-- **Designed as system instruction** for AI agents
-- No initialization response requirement
-- Can be customized and extended by developers
-- Suitable for building custom AI assistants
+**🔄 Three Response Modes:**
+- **Natural Language → Vibe**: "Make it feel like a cozy coffee shop"
+- **Technical → Vibe Enhancement**: Add emotional layer to existing specs
+- **Mixed → Unified**: Merge emotional and technical requirements
+
+**🛠️ Production-Ready Vibes:**
+- Frontend security (XSS prevention, CSP awareness, no tokens in localStorage — single authoritative section)
+- Emotional accessibility (focus indicators, ARIA labels, alt text — all styled to match the vibe, WCAG 2.1 AA)
+- CSS Feature Strategy — timeless principles + modern enhancements + @supports fallbacks (single authoritative section, no duplication)
+- Reduced motion support — vibe preserved through color, spacing, and typography when animation is disabled
+- Self-contained HTML mockup strategy for instant vibe preview in any browser
+- Testing guidance — visual regression, Storybook, axe-core, animation performance
+
+**✅ Ready to Use:**
+- **Send as first message** to initialize CODEAI
+- Describe your vision in emotional language
+- Works with new projects and existing code
+- Response format: Emotional Vision → Design Implementation → Atmospheric Hints
+
+---
+
+### **Tech Mentor** ([codeai_tech_mentor.md](codeai_tech_mentor.md)) 🧠 STAFF ENGINEER & EDUCATOR
+
+Staff/Principal Engineer and world-class Technical Mentor focusing on elevating developers through code reviews and architecture analysis:
+
+**🎓 Education Through Clarity (The Socratic Approach):**
+- 50% deep technical auditing + 50% Socratic teaching
+- Does not just patch bugs — patches gaps in user knowledge
+- Explains complex computer science concepts using real-world **Mental Models** (analogies)
+- Forbids "Spoon-feeding": Fixes the specific loop/logic and explains it, rather than blindly rewriting thousands of lines of code.
+
+**👁️ Aggressive Code Reviews & Audits:**
+- Analyzes code for Security (OWASP Top 10), Big-O Performance, and Readability (SOLID/DRY).
+- Four intelligent modes: Code Review Mode, Socratic Debugging Mode, Concept Breakdown Mode, Architecture Audit Mode.
+- Output includes targeted diffs (`BEFORE/AFTER`) instead of full file rewrites.
+
+**🧩 Interactive Visual Tutor (Widgets & Diagrams):**
+- Can generate **Interactive JSON Widgets** (simulators for load balancing, animation easing curves, sorting algorithms) directly in the chat to help visualize dynamic concepts.
+- Deploys static diagrams to explain architecture flows (e.g., OAuth 2.0).
+- Uses visual reinforcement to turn abstract engineering problems into interactive learning experiences.
+
+**✅ Ready to Use:**
+- **Send as first message** to initialize CODEAI
+- Perfect for learning, debugging hard logic, system design planning, and code reviews.
+- Response format: High-Level Verdict → Critical Issues → Refactoring Snippets → Mental Model / Widget.
+
+---
 
 ## How to Use CODEAI
 
 ### ⚠️ IMPORTANT: Choose the Right Version
 
-**For Direct Use (Send as First Message):**
-1. **Enhanced Agent** - For most development tasks with tools ⭐
-2. **Enhanced Chat** - For chat-only with dual-mode intelligence 💬
-3. **Vibe-Coding** - For natural language with existing code support 🎨
+| Your Need | Version | Why |
+|-----------|---------|-----|
+| Any development task | **Developer Expert** 🔧 | Universal expert, technical precision |
+| Full apps with great UX | **Hybrid Master** 🚀 | Balance of engineering + feeling |
+| Feeling-driven frontend | **Vibe Developer** 🎨 | Emotion-first, vibe consistency |
+| Code review, debugging, learning | **Tech Mentor** 🧠 | Explains "why" and "how", elevates skills |
+| "Just make it work" | **Developer Expert** 🔧 | Fastest path to working code |
+| "Make it feel amazing" | **Vibe Developer** 🎨 | Every pixel serves the emotion |
+| "Both — work AND feel" | **Hybrid Master** 🚀 | Adjustable tech/vibe ratio |
+| "Why is this code failing?" | **Tech Mentor** 🧠 | Socratic debugging and mental models |
+| API, backend, algorithms | **Developer Expert** 🔧 | 100% engineering focus |
+| Landing page, portfolio | **Vibe Developer** 🎨 | Emotion-first frontend focus |
+| System design, architecture | **Tech Mentor** 🧠 | Architecture audits with pros/cons |
 
-**For System Integration (Use as System Instruction):**
-1. **Ultimate Agent** - For maximum capabilities in custom agents 🏆
+### Initial Setup
 
-### Initial Setup for Direct Use
+**All versions follow the same setup:**
 
-**Enhanced Agent, Enhanced Chat, or Vibe-Coding:**
-1. Copy the complete content of the chosen instruction file
-2. **Send as your FIRST MESSAGE** to the AI model
-3. Wait for initialization response: "CODEAI Developer Assistant initialized"
+1. Copy the complete content of the chosen `.md` file
+2. **Send as your FIRST MESSAGE** to the AI model (ChatGPT, Claude, Gemini, etc.) or set as system prompt in your IDE agent (Cursor, Windsurf, or any other)
+3. Wait for initialization response
 4. Begin development tasks immediately
 
-**Example initialization:**
-```
-User: [Paste complete Enhanced Agent instruction]
-AI: CODEAI Developer Assistant initialized
-User: Create a React todo app with TypeScript
-```
-
-**Enhanced Chat Dual-Mode Example:**
-```
-User: [Paste complete Enhanced Chat instruction]
-AI: CODEAI Developer Assistant initialized
-User: I need a dashboard that feels alive and responsive
-// OR
-User: Add authentication to my existing React app [provides code]
-```
-
-**Vibe-Coding with Existing Code Example:**
-```
-User: [Paste complete Vibe-Coding instruction]
-AI: CODEAI Developer Assistant initialized
-User: Make my dashboard feel more alive [provides current dashboard code]
-```
-
-### System Integration Setup
-
-**Ultimate Agent:**
-1. Copy the complete content from [agent/codeai_agent_ultimate.md](agent/codeai_agent_ultimate.md)
-2. **Use as SYSTEM INSTRUCTION** in your AI agent configuration
-3. Customize and extend as needed for your specific use case
-4. Do NOT send as first message to avoid conflicts
+**Initialization responses:**
+- Developer Expert → `CODEAI Developer Expert ready. Awaiting technical task. What stack are we using and what are we building today?`
+- Hybrid Master → `CODEAI Hybrid Master ready. Ready to build a product that works flawlessly and feels alive. What are we building today, and shall we keep the 50/50 balance?`
+- Vibe Developer → `CODEAI Vibe Developer ready. What atmosphere are we creating today? Describe the emotion the user should feel the moment they open your project, and specify the format (code, framework, or concept).`
+- Tech Mentor → `CODEAI Tech Mentor ready. Drop your code for review, share an architecture diagram, or state the concept you want to master. Shall we do a direct analysis, or a Socratic debugging session?`
 
 ### Request Structure
 
-For optimal development assistance:
-
+**All versions support the ROLE framework for structured requests:**
 ```
-[Clear task description]
-
-Current setup:
-- Framework/language: [React, Node.js, Python, etc.]
-- Project type: [new/existing]
-- Key requirements: [specific needs]
+Role: [Expertise level — e.g., Senior Go Developer, Backend Engineer]
+Objective: [What exactly needs to be done]
+Context/Stack: [Languages, frameworks, versions, existing code]
+Constraints: [Quality requirements, performance targets, security needs]
+Output Format: [Just code, code + tests, code + explanations, etc.]
 ```
 
-### Natural Language Requests (Enhanced Chat & Vibe-Coding)
-
-**Describe your vision naturally:**
-```
-I want a [type of application] that feels [emotional descriptors].
-It should [functionality in plain language].
-The style should be [visual preferences].
-```
-
-**With Existing Code:**
-```
-Make my [existing feature] more [desired quality].
-Here's my current code: [paste code]
-Keep the same patterns but add [desired enhancement].
-```
+Any component can be omitted — CODEAI will use intelligent defaults or ask focused questions for critical missing information.
 
 **Examples:**
-- "I need a portfolio website that feels modern and professional"
-- "Make my todo app more fun with gamification"
-- "Add a search that feels magical to my React app"
-- "Transform my boring dashboard into something that feels alive"
+```
+# Developer Expert
+"Create a REST API with JWT auth, rate limiting, and PostgreSQL"
+
+# Hybrid Master
+"Professional dashboard that feels approachable — real-time data with friendly interactions. Balance: 60/40."
+
+# Vibe Developer
+"Make it feel like a cozy coffee shop — warm tones, soft animations, inviting atmosphere"
+
+# Tech Mentor
+"Review this React authentication context. Focus on security flaws and memory leaks. Use a Socratic approach."
+```
 
 ### Advanced Request Formatting
 
-**Works with all CODEAI versions** - For complex tasks, use structured tags:
+**Works with all CODEAI versions** — For complex tasks, use structured tags:
 
 ```
 <task>
@@ -242,474 +236,167 @@ Project type: [new/existing]
 <requirements>
 - [Specific requirement 1]
 - [Specific requirement 2]
-- [Specific requirement 3]
 </requirements>
 
 <constraints>
-- [Time limitations]
 - [Technology restrictions]
-- [Performance requirements]
+- [Balance ratio — for Hybrid Master]
+- [Emotional/vibe goals — for Vibe Developer]
+- [Learning style/focus — for Tech Mentor]
 </constraints>
 ```
 
-### Example Requests
+---
 
-**New Project Creation (works with all versions):**
+## Key Features Across All Versions
+
+### 🔐 Security (Non-Negotiable)
+
+All versions enforce security as a **single authoritative section** (no duplication across the prompt):
+- **OWASP Top 10 compliance** built into every implementation/review
+- Environment variables for secrets (never hardcoded)
+- Parameterized queries, input validation, CSRF protection
+- JWT with HttpOnly, Secure, SameSite tokens
+- Tech Mentor will aggressively hunt for these flaws in Code Review mode.
+
+### ♿ Accessibility (Non-Negotiable)
+
+All versions enforce accessibility as a **single authoritative section**:
+- **WCAG 2.1 AA minimum** for every UI implementation
+- Keyboard navigation, ARIA labels, focus indicators
+- Color contrast ≥ 4.5:1 (normal text), ≥ 3:1 (large text)
+
+### ⛔ No Placeholders (Chat Mode)
+
+Except for Tech Mentor (which relies on targeted snippets rather than full file rewrites to avoid "spoon-feeding"), all building agents enforce strict Chat Mode rules:
+- **NEVER** use `// ... rest of code` or `// TODO: implement`
+- Every file is **complete, copy-paste-ready, and immediately runnable**
+- If code is long, split across labeled blocks — but omit nothing
+
+### 📄 Large File Segmentation Protocol
+
+When a file exceeds the model's output token limit, CODEAI building agents follow the same protocol instead of silently truncating:
+1. Splits at a **clean breaking point** (between functions, components, or style blocks).
+2. Labels each block clearly.
+3. Instructs to concatenate in order.
+
+**How to request the next part:**
 ```
-<task>
-Create a React todo app with TypeScript
-</task>
-
-<context>
-Framework: React 18
-Language: TypeScript
-Project type: new
-</context>
-
-<requirements>
-- Local storage persistence
-- Add/edit/delete functionality
-- Responsive design
-- Modern styling with CSS modules
-</requirements>
+Continue with Part 2
 ```
-
-**Natural Language Request (Enhanced Chat & Vibe-Coding):**
+or simply:
 ```
-I want a recipe website that feels like grandmother's kitchen - warm, cozy, with handwritten fonts and wooden textures. Each recipe should have a story section about family memories.
-```
-
-**Existing Project Enhancement (All Versions):**
-```
-<task>
-Add authentication to my React app
-</task>
-
-<context>
-Framework: React 18 with TypeScript
-Project type: existing
-Current setup: React Router v6, existing user management
-</context>
-
-<requirements>
-- JWT token handling
-- Protected routes
-- Login/logout functionality
-- User context management
-</requirements>
-
-<constraints>
-- Must integrate with existing routing
-- Maintain current styling approach
-- No external auth services
-</constraints>
+<continue>
 ```
 
-**Natural Language Enhancement (Enhanced Chat & Vibe-Coding):**
-```
-My dashboard feels static and boring. Make it feel alive with real-time updates and smooth animations. Here's my current Dashboard.tsx: [paste code]
+### 🧩 Visual Tutors & Interactive Widgets (Tech Mentor feature)
+For concepts that require spatial or systemic understanding, the `Tech Mentor` can trigger specific tags to display static diagrams or output complex `json?chameleon` blocks to render interactive sandbox widgets (e.g., physics simulators, network flow diagrams) in supported chat interfaces.
 
-I want it to pulse with activity and respond to user interactions in a delightful way.
-```
-
-## Technical Specifications
-
-### 🔧 **Development Workflow**
-
-**Enhanced Agent Process:**
-1. **search_code** - Find relevant code context (mandatory)
-2. **read_file** - Examine current implementation
-3. **Planning** - Create detailed implementation plan
-4. **Approval** - Get user confirmation before proceeding
-5. **Implementation** - Use appropriate tools (edit_file preferred)
-6. **Testing** - Execute commands and browser verification
-7. **Completion** - Present final results
-
-**Enhanced Chat Dual-Mode Process:**
-1. **Request Analysis** - Determine if natural language or technical
-2. **Mode Selection** - Choose appropriate analysis approach
-3. **For Natural Language**:
-   - Extract vision and implicit needs
-   - Translate feelings to features
-   - Plan technical architecture
-4. **For Existing Code**:
-   - Analyze patterns and conventions
-   - Identify integration points
-   - Plan seamless modifications
-5. **Implementation** - Generate complete, pattern-matching code
-6. **Refinement** - Iterate based on feedback
-
-**Vibe-Coding Enhanced Process:**
-1. **Mode Detection** - New project or existing code enhancement
-2. **For New Projects**:
-   - Natural language analysis
-   - Vibe translation
-   - Complete generation
-3. **For Existing Code**:
-   - Pattern recognition first
-   - Vibe integration planning
-   - Native-feeling enhancements
-4. **Natural Refinement** - Iterate conversationally
-5. **Production Polish** - Built-in best practices
-
-**Ultimate Agent Advanced Process:**
-1. **Multi-layer Analysis** - Sophisticated interpretation
-2. **Architectural Planning** - Enterprise-grade design
-3. **Advanced Implementation** - Complex system integration
-4. **Quality Assurance** - Comprehensive validation
-5. **Documentation** - Professional deliverables
-
-**Tool Usage Patterns:**
-```
-search_code → read_file → edit_file → execute_command → browser_action → attempt_completion
-```
-
-### 🛠️ **File Operations**
-
-**edit_file (Preferred):**
-- Targeted modifications to existing files
-- Preserves unchanged content and formatting
-- Exact string matching with SEARCH/REPLACE blocks
-- Multiple edits in single operation
-
-**create_file (When Needed):**
-- New file creation with complete content
-- Never use placeholders or partial content
-- Automatic directory creation
-- Full file content required
-
-### 📊 **Code Analysis**
-
-**Pattern Recognition (All Versions):**
-- Component structure identification
-- State management approach analysis
-- File naming convention detection
-- Import/export pattern matching
-- Architectural philosophy understanding
-
-**Vibe Analysis (Enhanced Chat & Vibe-Coding):**
-- Multi-layer interpretation
-- Emotional descriptor translation
-- Visual preference interpretation
-- User experience goal extraction
-- Feeling to functionality mapping
-- Performance vibe understanding
-
-**Integration Intelligence:**
-- Existing code compatibility
-- Framework-specific implementations
-- Pattern preservation strategies
-- Architecture consistency maintenance
-- Minimal disruption approach
+---
 
 ## Working with CODEAI Responses
 
-### 🔄 **Handling Incomplete Responses**
-
-**Universal for all CODEAI versions** - If CODEAI stops generating mid-response, use this prompt:
-
+### 🔄 Handling Incomplete Responses
+If CODEAI stops generating mid-response:
 ```
 Continue generating from the exact cut-off point, maintaining the same tone, style, and context without any repetition:
 ```
 
-### 📝 **Response Management**
-
-**When CODEAI stops during:**
-
-**Code Generation:**
+### ⚡ Quick Commands
 ```
-Continue the code implementation from where you stopped, maintaining the same structure and patterns:
-```
-
-**File Creation:**
-```
-Complete the file content from the cut-off point, ensuring all necessary code is included:
+<continue>   — Continue from the exact stopping point / next part
+<fix>        — Address the issue and continue
+<optimize>   — Improve performance and maintainability
+<review>     — Review code for issues and improvements (Tech Mentor specialty)
+<simplify>   — Provide a simpler solution
+<explain>    — Provide a mental model for this code (Tech Mentor specialty)
 ```
 
-**Planning Phase:**
-```
-Continue the implementation plan from where you left off, maintaining the same detail level:
-```
+---
 
-**Tool Usage (Agent versions only):**
-```
-Continue with the next step in the workflow, following the established pattern:
-```
-
-### ⚡ **Quick Commands**
-
-**Compatible with all CODEAI versions** - For faster interaction:
+## File Structure
 
 ```
-<continue>
-Continue from the exact stopping point
-</continue>
-
-<complete>
-Finish the current implementation
-</complete>
-
-<next>
-Proceed to the next step in the workflow
-</next>
-
-<fix>
-Address the issue and continue
-</fix>
+codeai-instructions/
+├── codeai_developer_expert.md   — 🔧 Senior/Principal Software Engineer
+├── codeai_hybrid_master.md      — 🚀 Full-Stack Engineer + Product Designer
+├── codeai_tech_mentor.md        — 🧠 Staff Engineer & Technical Educator
+├── codeai_vibe_developer.md     — 🎨 Creative Senior Frontend Engineer
+└── README.md                    — 📖 This documentation
 ```
 
-### 🎯 **Optimization Commands**
+---
 
-**Works with all CODEAI versions** - For better results:
+## Version Comparison
 
+| Feature | Developer Expert 🔧 | Hybrid Master 🚀 | Vibe Developer 🎨 | Tech Mentor 🧠 |
+|---------|---------------------|-------------------|-------------------|-----------------|
+| **Identity** | Senior/Principal Engineer | Full-Stack + Product Designer | Creative Frontend Engineer | Staff Engineer & Educator |
+| **Primary Focus** | Technical excellence | Balanced approach | Emotional UI design | Code reviews & Mentoring |
+| **Best For** | APIs, backends, tech tasks | SaaS, dashboards, full apps | Landing pages, UI components | Debugging, Architecture audits |
+| **Tech/Emotion Default** | 100% engineering | 50/50 (adjustable) | Emotion-first design | 50% Audit / 50% Socratic |
+| **Engineering Principles**| SOLID, DRY, KISS, YAGNI | SOLID, DRY (both layers) | DRY (tokens), Single Resp. | Teaching SOLID, Big-O, DRY |
+| **No Placeholders (Chat)**| Strict (Full files) | Strict (Full files) | Strict (Full files) | Targeted Diffs (No Spoon-feeding) |
+| **Agent Mode Editing** | Targeted edits via tool | Targeted edits via tool | Targeted edits via tool | Targeted diffs / Review comments |
+| **Iterative Protocol** | Arch → Modules → Integration| Foundation → Components → Int. | Design Foundation → Components | Analysis → Socratic → Mental Model |
+| **One-Shot Pattern** | Code style binding | Code + design style binding | Design style binding | Code style matching for snippets |
+| **Planning Protocol** | TASK_PLAN.md | HYBRID_PLAN.md | DESIGN_PLAN.md | Architecture Audit Mode |
+| **Response Format** | Analysis → Code → Instruct. | Balance → Implementation → UX | Vision → Implementation → Hints | Verdict → Issues → Refactor → Model |
+| **Visual Mockup/Widgets** | Not applicable | Single-file HTML previews | Single-file HTML previews | Interactive JSON Widgets & Diagrams |
+
+---
+
+## Common Workflows
+
+### Technical Development (Developer Expert)
 ```
-<optimize>
-Improve the current implementation for better performance and maintainability
-</optimize>
-
-<review>
-Review the code for potential issues and suggest improvements
-</review>
-
-<test>
-Create test cases for the implemented functionality
-</test>
-
-<document>
-Add comprehensive documentation and comments
-</document>
-```
-
-### 🎨 **Natural Language Commands**
-
-**For Enhanced Chat & Vibe-Coding** - Natural refinement:
-
-```
-Make it more [descriptor]: Adjust the design/functionality
-Add [feature] that feels [emotion]: Implement with specific vibe
-Change the style to be more [adjective]: Redesign elements
-It should give a feeling of [emotion]: Adjust overall experience
-The [component] needs to feel more [descriptor]: Targeted enhancement
+Step 1: Request analysis — parse ROLE components, detect stack
+Step 2: Planning — architecture and interfaces first 
+Step 3: Implementation — production code with error handling, security
+Step 4: Verification — completion checklist, version notes
 ```
 
-## Safety Protocols
-
-### 🚨 **Critical Usage Rules**
-
-**For Direct Use (Enhanced Agent/Chat/Vibe-Coding):**
-- ✅ Send complete instruction as first message
-- ✅ Wait for "CODEAI Developer Assistant initialized" response
-- ✅ Then begin with your development tasks
-- ❌ Do NOT use as system instruction
-
-**For System Integration (Ultimate Agent):**
-- ✅ Use as system instruction in AI agent configuration
-- ✅ Customize and extend as needed
-- ✅ Integrate with your existing agent architecture
-- ❌ Do NOT send as first message to users
-
-### ✅ **Best Practices**
-
-**For Enhanced Agent (Direct Use):**
-- Let search_code run automatically first
-- Review implementation plans carefully
-- Use edit_file for targeted changes
-- Provide context for better results
-- Wait for confirmations between tool uses
-
-**For Enhanced Chat (Direct Use):**
-- Use natural language for new projects
-- Provide code for pattern analysis
-- Mix technical and natural requests freely
-- Trust the dual-mode intelligence
-- Iterate with simple descriptions
-
-**For Vibe-Coding (Direct Use):**
-- Describe your vision naturally
-- Share existing code for enhancements
-- Focus on feelings and experience
-- Let CODEAI handle technical decisions
-- Use emotional descriptors freely
-
-**For Ultimate Agent (System Use):**
-- Customize instructions for your specific use case
-- Integrate with your agent's existing capabilities
-- Test thoroughly in your environment
-- Document any modifications made
-
-### 🔧 **Recovery Commands**
-
-**Universal for all CODEAI versions** - When things go wrong:
-
+### Full Application (Hybrid Master)
 ```
-<reset>
-Start over with a fresh approach to this task
-</reset>
-
-<clarify>
-I need clarification on [specific aspect]
-</clarify>
-
-<simplify>
-Provide a simpler solution approach
-</simplify>
-
-<debug>
-Help me debug this issue: [describe problem]
-</debug>
+Step 1: Hybrid analysis — parse ROLE + Balance, determine tech/vibe ratio
+Step 2: Dual planning — architecture + design tokens + integration
+Step 3: Integrated implementation — functional core and emotional layer
+Step 4: Hybrid verification — functionality works AND vibe resonates
 ```
 
-## Common Protocols
-
-### Web Development
+### Vibe-Driven Project (Vibe Developer)
 ```
-Phase 1: Project setup and structure
-Phase 2: Core functionality implementation
-Phase 3: Styling and responsive design
-Phase 4: Testing and optimization
-Phase 5: Deployment preparation
+Step 1: Request analysis — parse design ROLE, vibe analysis
+Step 2: Design planning — tokens, interaction map
+Step 3: Implementation — vibe-first code with CSS fallbacks, accessibility
+Step 4: Vibe verification — emotional consistency, performance
 ```
 
-### API Development
+### Code Review & Learning (Tech Mentor)
 ```
-Phase 1: Server setup and middleware
-Phase 2: Database schema and models
-Phase 3: Authentication and authorization
-Phase 4: Route implementation
-Phase 5: Testing and documentation
-```
-
-### Existing Project Enhancement
-```
-Phase 1: Code analysis and pattern recognition
-Phase 2: Integration point identification
-Phase 3: Implementation plan creation
-Phase 4: Targeted modifications
-Phase 5: Testing and verification
+Step 1: Request analysis — detect Mentoring Mode (Review, Socratic, Concept, Audit)
+Step 2: Pre-computation — identify core flaw, cognitive gap, and pedagogical strategy
+Step 3: Response generation — Verdict, targeted snippets (BEFORE/AFTER), Mental Model
+Step 4: Visual reinforcement — Deploy interactive JSON widget or diagram if applicable
 ```
 
-### Natural Language Development
-```
-Phase 1: Vision understanding and clarification
-Phase 2: Technical translation and planning
-Phase 3: Complete code generation
-Phase 4: Natural language refinement
-Phase 5: Final polish and delivery
-```
+---
 
-## Troubleshooting
+## Getting Started — 30-Second Guide
 
-### Common Issues
+1. **Pick your version:**
+   - Need reliable code? → `codeai_developer_expert.md`
+   - Need complete product? → `codeai_hybrid_master.md`
+   - Need beautiful experience? → `codeai_vibe_developer.md`
+   - Need code review or to learn? → `codeai_tech_mentor.md`
 
-**Enhanced Agent (Direct Use):**
-- **Not initializing**: Ensure you sent complete instruction as first message
-- **Tool usage questions**: Enhanced descriptions provide clear parameter explanations
-- **Planning too detailed**: Ask for simplified approach if needed
-- **Search not finding code**: Try different search terms or provide more context
+2. **Copy the file content**
 
-**Enhanced Chat (Direct Use):**
-- **Not initializing**: Ensure you sent complete instruction as first message
-- **Mode confusion**: Let CODEAI auto-detect from your request style
-- **Pattern mismatch**: Provide more code examples for analysis
-- **Natural language unclear**: Use more descriptive emotional words
-- **Incomplete responses**: Use continuation commands
+3. **Paste as first message** in your AI chat or set as system prompt in your IDE agent
 
-**Vibe-Coding (Direct Use):**
-- **Not initializing**: Ensure you sent complete instruction as first message
-- **Wrong mode selected**: Clarify if new project or enhancement
-- **Integration issues**: Share more context about existing code
-- **Vibe not captured**: Use more specific descriptive language
-- **Pattern conflicts**: Point out which patterns to preserve
+4. **Wait for initialization**
 
-**Ultimate Agent (System Use):**
-- **Integration conflicts**: Check for conflicts with existing system instructions
-- **Complex analysis needed**: Provide more existing code files for pattern recognition
-- **XML formatting questions**: Refer to included examples in instruction
-- **Customization issues**: Test modifications in isolated environment first
-
-**Response Issues (All Versions):**
-- **Incomplete generation**: Use continuation prompts from above
-- **Wrong direction**: Use `<reset>` and clarify requirements
-- **Too complex**: Use `<simplify>` for easier approach
-- **Missing context**: Provide more specific details about your setup
-
-**All Versions:**
-- **Too conversational**: Reminder about direct technical style
-- **Incomplete code**: Specify "complete implementation, no placeholders"
-- **Wrong language response**: Remind about English-only policy
-
-## Success Metrics
-
-### ✅ **Performance Indicators**
-
-**Code Quality:**
-- Clean, maintainable implementations
-- Proper error handling and validation
-- Framework best practices adherence
-- Security considerations included
-- Pattern consistency maintained
-
-**Development Efficiency:**
-- Reduced back-and-forth iterations
-- Accurate pattern recognition
-- Proper integration with existing code
-- Complete working solutions
-- Natural language understanding
-
-**User Experience Success:**
-- Vision accurately translated to code
-- Emotional goals achieved technically
-- Natural workflow maintained
-- Existing patterns preserved
-- Delightful interactions created
-
-### 📈 **Progress Tracking**
-
-**Project Completion:**
-- All requirements implemented
-- Testing and verification completed
-- Documentation provided
-- Deployment-ready code
-- Experience goals achieved
-
-## Getting Started
-
-### For Direct Use (Recommended for Most Users)
-
-**Enhanced Agent (with tools):**
-1. Copy complete content from [agent/codeai_agent_enhanced.md](agent/codeai_agent_enhanced.md)
-2. Send as first message to AI model
-3. Wait for "CODEAI Developer Assistant initialized"
-4. Describe your task using structured tags for complex requests
-5. Follow the workflow with tool confirmations
-6. Use continuation commands if responses are incomplete
-
-**Enhanced Chat (dual-mode intelligence):**
-1. Copy complete content from [chat/codeai_chat_extended.md](chat/codeai_chat_extended.md)
-2. Send as first message to AI model
-3. Wait for "CODEAI Developer Assistant initialized"
-4. Use natural language OR technical requests
-5. Provide existing code for pattern analysis when needed
-6. Mix approaches freely - CODEAI adapts automatically
-
-**Vibe-Coding (natural language with code support):**
-1. Copy complete content from [chat/vibe_coding_codeai.md](chat/vibe_coding_codeai.md)
-2. Send as first message to AI model
-3. Wait for "CODEAI Developer Assistant initialized"
-4. Describe new projects OR enhance existing code naturally
-5. Share current code for pattern-preserving enhancements
-6. Iterate with simple, emotional language
-
-### For System Integration (Developers)
-
-**Ultimate Agent (maximum capabilities):**
-1. Copy complete content from [agent/codeai_agent_ultimate.md](agent/codeai_agent_ultimate.md)
-2. Use as system instruction in your AI agent configuration
-3. Customize and extend as needed for your use case
-4. Test integration thoroughly
-5. Document any modifications
-
-Remember: Choose the right version for your use case - direct use vs system integration!
+5. **Start building (or learning)!**
 
 ---
 
@@ -717,7 +404,7 @@ Remember: Choose the right version for your use case - direct use vs system inte
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
+This project is licensed under the MIT License — see the [LICENSE](../LICENSE) file for details.
 
 ## Support
 

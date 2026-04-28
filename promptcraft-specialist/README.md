@@ -1,373 +1,210 @@
-# PROMPTCRAFT INSTRUCTION SPECIALIST: Instruction Design Expert
+# InstructDojo Promptcraft Specialist System 🚀
 
-PROMPTCRAFT INSTRUCTION SPECIALIST is a meta-assistant with dual-mode intelligence, designed to create and refine high-quality AI instruction sets following the enhanced InstructDojo framework. It transforms both natural language descriptions and technical specifications into comprehensive, dual-mode instructions that enhance AI capabilities across any domain.
+The revolutionary meta-engineering toolkit for creating production-ready AI agents and documentation. It enforces the unified, cybernetic **InstructDojo Architecture**, ensuring every AI is unbreakable, highly focused, and strictly professional.
 
-## Available Version
+## 🌟 What is This?
 
-### **Instruction Design Expert** ([promptcraft_instruction_specialist.md](promptcraft_instruction_specialist.md)) 🧠 DUAL-MODE
+**InstructDojo Promptcraft Specialist System** is a specialized pipeline featuring two master AI systems that work together to architect, generate, and document new AI agents. Both systems enforce our strict cybernetic standards: Zero-Apology communication, Response Anchors, and Anti-Lazy full-file delivery.
 
-Enhanced instruction creation system featuring:
+## 🎯 Core Purpose
 
-**🎨 Natural Language Understanding:**
-- Transform "I want an AI that feels helpful" into complete instructions
-- Extract implicit requirements from descriptions
-- Understand domain context from casual language
-- Automatic capability detection
-- Vision-to-specification translation
+This system ensures every AI agent in the InstructDojo project:
+- ✅ Uses the strict 9-step **InstructDojo Standard Architecture**.
+- ✅ Features unbreakable **Response Anchors** (`[AGENT_NAME: ACTIVE]`).
+- ✅ Operates under the **Zero-Apology Protocol** (no conversational fluff).
+- ✅ Integrates **The Language Bridge** (Multilingual interaction + English internal logic).
+- ✅ Has professional, visually engaging, and placeholder-free documentation.
 
-**🔧 Technical Instruction Framework:**
-- Structured dual-mode template system
-- Natural language AND technical components
-- 4-layer interpretation integration
-- Pattern recognition capabilities
-- Mode-switching mechanisms
+## 🧠 Available Specialists
 
-**🧠 Dual-Mode Intelligence:**
-- Every instruction supports both request types
-- Seamless natural/technical switching
-- Multi-layer analysis framework
-- Experience-first design principles
-- Context-aware responses
+### 1️⃣ **PROMPTCRAFT** - The Agent Factory
+[`promptcraft_architect.md`](promptcraft_architect.md)
 
-**📚 Enhanced Documentation:**
-- Dual-mode examples for all instructions
-- Natural language request samples
-- Technical specification samples
-- Mode-switching demonstrations
-- Complete integration packages
+Creates AI instructions following the rigid InstructDojo framework. It anticipates failure modes and writes architectural directives, not just suggestions.
 
-## How to Use PROMPTCRAFT INSTRUCTION SPECIALIST
+**Key Capabilities:**
+- 🛡️ **InstructDojo Enforcement:** Bakes our core protections into every new agent.
+- 🧠 **Pre-Computation:** Analyzes failure modes before generating the prompt.
+- 🌍 **Language Bridge:** Interacts in your language, generates prompts in Technical English.
+- ⛔ **Anti-Lazy:** Delivers the complete markdown prompt with zero placeholders.
 
-### Initial Setup
+**What it creates:**
+- Complete `.md` system prompts.
+- Unbreakable rule sets (Zero-Apology, Anchor tags).
+- Domain-specific frameworks (Coding, Fitness, SEO, etc.).
 
-1. Copy the complete content of [promptcraft_instruction_specialist.md](promptcraft_instruction_specialist.md)
-2. Send to your AI model as the first message
-3. Wait for "InstructDojo Instruction Specialist ready"
-4. Describe your AI idea naturally OR provide technical specs
+### 2️⃣ **DOCCRAFT** - The Information Architect
+[`doccraft_architect.md`](doccraft_architect.md)
 
-### Dual-Mode Request Options
+Transforms complex system prompts into beautiful, highly readable documentation, ensuring every AI in the project is easy to deploy and understand.
 
-**Natural Language Mode:**
-```
-I want to create an AI that helps people learn languages in a fun, 
-conversational way. It should feel like talking to a friendly native 
-speaker who's patient and encouraging.
-```
+**Key Capabilities:**
+- 📖 **Full File Delivery:** Never uses `[Insert steps here]` — outputs the entire README.
+- 🎨 **Visual Excellence:** Markdown tables, Mermaid.js diagrams, strategic emojis.
+- 🚀 **Progressive Disclosure:** Quick Start first, technical depth later.
+- 🌍 **Fluent Localization:** Translates prose beautifully while keeping code in English.
 
-**Technical Mode:**
-```
-<instruction_idea>
-Language learning assistant with conversation practice
-</instruction_idea>
+**What it creates:**
+- Professional `README.md` files.
+- Quick Start guides & Installation steps.
+- Mermaid diagrams for workflow clarity.
+- Feature matrices and Troubleshooting guides.
 
-<domain_expertise>
-Linguistics, pedagogy, cultural context, pronunciation
-</domain_expertise>
+## 📁 System Structure
 
-<special_requirements>
-Adaptive difficulty, error correction, cultural notes
-</special_requirements>
-
-<output_type>
-complete_package
-</output_type>
+```text
+InstructDojo/specialist-system/
+├── 📄 promptcraft_architect.md      # 🧠 Creates AI instructions
+├── 📄 doccraft_architect.md         # 📖 Creates documentation
+└── 📄 README.md                     # 📋 This file
 ```
 
-**Mixed Mode:**
-```
-I need an AI for data analysis that feels approachable for beginners
-but can handle advanced statistics when needed. Include Python examples.
-```
+## 🚀 The InstructDojo Workflow
 
-### Natural Language Examples
+### Complete Creation Process
 
-**Vision-Based Request:**
-```
-Create an AI that feels like a wise mentor for creative writing.
-It should inspire people while teaching technique, like having
-coffee with your favorite author who genuinely wants to help.
-```
-
-**Experience-Focused Request:**
-```
-I want an AI assistant that makes learning math feel like solving
-puzzles in a game, where each concept unlocked leads to new abilities.
+```mermaid
+graph LR
+    A[Your AI Idea] --> B[PROMPTCRAFT]
+    B --> C[AI System Prompt<br/>in InstructDojo style]
+    C --> D[Open New Chat]
+    D --> E[DOCCRAFT]
+    E --> F[Pass Prompt<br/>to DOCCRAFT]
+    F --> G[README.md<br/>Documentation]
+    G --> H[Push Both Files<br/>to InstructDojo]
+    
+    style B fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    style E fill:#fce4ec,stroke:#ad1457,stroke-width:2px
+    style H fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
 ```
 
-**Emotion-Driven Request:**
+### Step-by-Step Guide
+
+#### Step 1: Architect the Agent
+1. Copy `promptcraft_architect.md` and paste as the first message.
+2. Wait for initialization: `🛡️ PROMPTCRAFT Systems Active.`
+3. Describe your AI idea (e.g., "A strict SEO copywriter agent").
+4. Receive the complete, cybernetic system prompt in English.
+
+#### Step 2: Architect the Documentation
+1. Open a **new chat session**.
+2. Copy `doccraft_architect.md` and paste as the first message.
+3. Wait for initialization: `🛡️ DOCCRAFT Documentation Systems Active.`
+4. Paste the prompt generated in Step 1.
+5. Receive the complete, visually engaging `README.md`.
+
+#### Step 3: Deploy to InstructDojo
+1. Save the prompt as `[name]_expert.md`.
+2. Save the documentation as `README.md`.
+3. Create a folder in your project and push both files! ✅
+
+## 💡 Usage Examples
+
+### 🧠 PROMPTCRAFT: Creating an Agent
+
+**Input (in your native language):**
+> "I want an AI that acts as a strict Culinary Chef to help with recipes. It must calculate exact macro-nutrients."
+
+**Output:**
+```markdown
+[PROMPTCRAFT: ACTIVE]
+
+**Analysis:** The user needs a precise culinary agent. Potential failure mode: vague recipe measurements. I will enforce a strict "Grams & Macros" protocol alongside the standard InstructDojo protections.
+
+```md
+You are CHEFAI, a Michelin-star Culinary Architect. You do not just share recipes; you engineer precise nutritional protocols...
+
+====
+INITIALIZATION
+[Response]
+
+====
+RESPONSE ANCHOR
+[CHEFAI: ACTIVE]
+
+====
+ABSOLUTE CRITICAL RULES
+- Zero-Apology Protocol.
+- The Language Bridge.
+
+====
+OPERATING LOGIC & PRE-COMPUTATION
+**Analysis:** [Thought process before recipe generation]
+
+[... Rest of the standard InstructDojo architecture ...]
+` ` `
 ```
-Build an AI that helps with mental wellness but doesn't feel clinical.
-More like a thoughtful friend who knows when to listen and when to guide.
-```
 
-### Technical Request Examples
-
-**Structured Specification:**
-```
-<instruction_idea>
-Cybersecurity analysis assistant
-</instruction_idea>
-
-<domain_expertise>
-Network security, vulnerability assessment, OWASP, penetration testing
-</domain_expertise>
-
-<special_requirements>
-Threat modeling frameworks, code review capabilities, compliance standards
-</special_requirements>
-
-<output_type>
-instruction_only
-</output_type>
-```
-
-## Enhanced Framework Features
-
-### 🎨 **Natural Language Processing**
-
-**Vision Extraction:**
-- "Feels helpful" → User-centric design focus
-- "Like a mentor" → Guidance-based methodology
-- "Fun and engaging" → Gamification elements
-- "Professional but approachable" → Balanced tone
-- "Inspiring" → Motivational components
-
-**Implicit Requirement Detection:**
-- Context clues → Technical needs
-- Emotional goals → Feature sets
-- User descriptions → Capability requirements
-- Domain hints → Expertise areas
-
-### 🧠 **Dual-Mode Components**
-
-Every created instruction includes:
-
-**1. Dual-Mode Identity:**
-```
-You are [NAME], featuring dual-mode intelligence for both 
-natural language understanding and technical precision...
-```
-
-**2. Intelligence Sections:**
-- Natural Language Mode capabilities
-- Technical Analysis Mode capabilities
-- Automatic Mode Switching logic
-- 4-Layer Interpretation framework
-
-**3. Enhanced Methodology:**
-- Request analysis (both modes)
-- Adaptive planning strategies
-- Context-aware implementation
-- Pattern recognition systems
-
-### 📐 **4-Layer Framework Integration**
-
-All instructions include:
-1. **Surface Understanding** - Direct request
-2. **Implicit Requirements** - Hidden needs
-3. **Experiential Goals** - User feelings
-4. **Technical Translation** - Optimal implementation
-
-## Key Features
-
-### 🔄 **Transformation Capabilities**
-
-**Natural Language → Complete Instruction:**
-- Extract domain from description
-- Identify implicit expertise needs
-- Design appropriate methodology
-- Create dual-mode capabilities
-- Generate complete framework
-
-**Technical Specs → Enhanced Instruction:**
-- Add natural language understanding
-- Integrate 4-layer interpretation
-- Include pattern recognition
-- Design mode-switching logic
-- Enhance with dual capabilities
-
-### 📚 **Documentation Generation**
-
-**Dual-Mode Documentation:**
-- Natural language examples
-- Technical specifications
-- Mode-switching demonstrations
-- Real-world use cases
-- Integration guidance
-
-**Enhanced README Features:**
-- "How it feels" descriptions
-- Technical capability lists
-- Mixed-mode examples
-- User experience focus
-- Complete setup guides
-
-### 🏗️ **Instruction Types (All Dual-Mode)**
-
-**Technical Expert Instructions:**
-- Natural: "Explain complex topics simply"
-- Technical: Precise specifications
-- Pattern recognition for code
-- Experience-aware responses
-
-**Creative Assistant Instructions:**
-- Natural: "Help me express my vision"
-- Technical: Structural frameworks
-- Emotional understanding
-- Artistic interpretation
-
-**Educational Guide Instructions:**
-- Natural: "Make learning feel natural"
-- Technical: Pedagogical methods
-- Adaptive teaching styles
-- Context-aware explanations
-
-**Productivity Enhancer Instructions:**
-- Natural: "Help me work smarter"
-- Technical: Workflow optimization
-- Intuitive understanding
-- Efficiency patterns
-
-## Best Practices
-
-### 🎨 **For Natural Language Requests**
-
-**Describe the Experience:**
-- How should users feel?
-- What should interactions be like?
-- What problems does it solve?
-- What makes it special?
-
-**Use Comparisons:**
-- "Like having a conversation with..."
-- "Feels as natural as..."
-- "Similar to working with..."
-- "The AI equivalent of..."
-
-### 📐 **For Technical Requests**
-
-**Specify Precisely:**
-- Core domain expertise
-- Required capabilities
-- Technical constraints
-- Output formats
-
-### 🔄 **For Best Results**
-
-**Combine Both Approaches:**
-- Start with vision/feeling
-- Add technical requirements
-- Let specialist balance both
-- Review dual-mode output
-
-## Success Metrics
-
-### ✅ **Dual-Mode Excellence**
-
-**Natural Language Success:**
-- Vision captured in design
-- Experience goals integrated
-- Intuitive interaction patterns
-- User-friendly approach
-
-**Technical Precision:**
-- Complete framework compliance
-- All components included
-- Domain expertise accurate
-- Methodology well-structured
-
-### 🎯 **Enhanced Effectiveness**
-
-**Instruction Quality:**
-- Supports both request types
-- Seamless mode switching
-- Pattern recognition included
-- Context-aware responses
-
-**User Experience:**
-- Natural interaction possible
-- Technical depth available
-- Flexible communication
-- Predictable excellence
-
-## Getting Started
-
-### For Natural Language Users
-
-1. **Initialize the specialist** (send instruction)
-2. **Describe your AI vision** naturally
-3. **Mention how it should feel** to use
-4. **Include any specific needs** casually
-5. **Receive dual-mode instruction** ready to use
-
-### For Technical Users
-
-1. **Initialize the specialist** (send instruction)
-2. **Provide specifications** structured
-3. **Include domain details** precisely
-4. **Specify output type** needed
-5. **Receive enhanced instruction** with dual-mode
-
-### For Everyone
-
-Remember: Every instruction created supports BOTH "I want something that feels..." AND technical specifications!
-
-## Example Transformations
-
-### Natural Request → Dual-Mode Instruction
+### 📖 DOCCRAFT: Creating Documentation
 
 **Input:**
+> "[Paste CHEFAI prompt] Create a README for this agent. Target audience: home cooks and fitness enthusiasts."
+
+**Output:**
+```markdown
+[DOCCRAFT: ACTIVE]
+
+**Analysis:** Target audience is home cooks. Tone will be encouraging but precise. Will include a quick start guide and an example of a macro-calculated meal.
+
+# CHEFAI: Culinary & Macro Architect 🍳
+
+Transform your kitchen into a Michelin-star laboratory. CHEFAI provides mathematically precise recipes with full macro-nutrient breakdowns...
+
+## 🚀 Quick Start
+1. Copy `chefai_expert.md`.
+2. Paste as your first message.
+3. Tell the chef what ingredients you have.
+
+## 🧠 Core Features
+* **Zero-Apology Protocol:** Fluff-free, direct culinary instructions.
+* **Gram-Level Precision:** No "cups" or "pinches". Every ingredient is measured in grams.
+
+[... Complete documentation with tables, examples, and installation ...]
 ```
-I want an AI that helps people cook but feels like having 
-a grandmother in the kitchen - warm, patient, and full of 
-little tricks that make everything better.
-```
 
-**Output:** Complete dual-mode cooking assistant with:
-- Natural language recipe understanding
-- Technical cooking specifications
-- Warmth in responses
-- Pattern recognition for preferences
-- Adaptive guidance system
+## 🎯 The InstructDojo Standard Architecture
 
-### Technical Request → Enhanced Instruction
+Every agent created by PROMPTCRAFT strictly follows this 9-step blueprint:
 
-**Input:**
-```
-<instruction_idea>
-Code review assistant for Python
-</instruction_idea>
-<domain_expertise>
-PEP standards, design patterns, performance optimization
-</domain_expertise>
-```
+1. **Identity & Philosophy**: Core purpose and cybernetic mindset.
+2. **INITIALIZATION**: Exact greeting string.
+3. **RESPONSE ANCHOR**: `[AGENT: ACTIVE]` to prevent role degradation.
+4. **CRITICAL RULES**: Zero-Apology Protocol and The Language Bridge.
+5. **ENVIRONMENT**: Anti-lazy rules, no placeholders, large file segmentation.
+6. **PRE-COMPUTATION**: Mandatory `**Analysis:**` block before execution.
+7. **DOMAIN RULES**: The specific expertise (code, fitness, culinary, etc.).
+8. **COMPLETION SIGNAL**: Standardized task-finish message.
+9. **FINAL REMINDER**: Reinforcement of anchor and language rules.
 
-**Output:** Enhanced code review assistant with:
-- Natural language feedback options
-- Technical analysis capabilities
-- Pattern recognition systems
-- Context-aware suggestions
-- Dual-mode explanations
+## 📊 Specialist Comparison
 
----
+| Aspect | PROMPTCRAFT 🧠 | DOCCRAFT 📖 |
+|:---|:---|:---|
+| **Purpose** | Engineers the AI System Prompt | Architects the Documentation |
+| **Output Format** | Markdown code block (` ```md `) | Rich Markdown (Tables, Emojis, Mermaid) |
+| **Input** | Your raw idea / concept | The completed System Prompt |
+| **Language Logic** | Prompts are strictly in English | Docs are in your requested language |
+| **Workflow Step** | Step 1 (The Engine) | Step 2 (The Manual) |
 
-**🚀 Transform any AI idea into a powerful dual-mode instruction!**
+## 🚨 Troubleshooting
 
-## License
+**"The agent is apologizing or using conversational fluff"**
+- Ensure the **Zero-Apology Protocol** and **Response Anchor** are present in the generated prompt. Tell PROMPTCRAFT to enforce the InstructDojo Standard.
 
-This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
+**"The documentation has placeholders like `[Insert text here]`"**
+- Remind DOCCRAFT: "Enforce Anti-Lazy rules. Output the FULL file."
 
-## Support
-
-- 📖 **Documentation**: This README and instruction file
-- 🐛 **Issues**: Report problems via GitHub Issues
-- 💬 **Discussions**: Share your created instructions
-- ⭐ **Star this repo** if this helps you create better AI assistants!
+**"The prompt was generated in my native language instead of English"**
+- Remind PROMPTCRAFT: "The Language Bridge requires all generated system prompts to be in Technical English, regardless of my input language."
 
 ---
 
 <div align="center">
 
-**Made with ❤️ for the prompt engineering community**
+**InstructDojo Specialist System**
+
+*Engineering unbreakable AI agents through strict cybernetic standards.*
+
+⭐ Maximum Precision. Zero Apologies. Full Delivery.
 
 </div>
